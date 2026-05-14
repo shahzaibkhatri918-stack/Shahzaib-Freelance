@@ -1,3 +1,3 @@
-# Shahzaib Soomro Cinematic Premium Fixed
+# Shahzaib Final Updated Portfolio
 
-Improved category filtering, premium hover cards, readable service animation, and improved services section.
+Final updates: clickable WhatsApp/email, formatted phone, centered animation, testimonials on portfolio and experience, social links in footer, link hover colors.

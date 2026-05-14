@@ -1,7 +1,11 @@
 export const site = {
   name: "Shahzaib Soomro",
-  phone: "03112224164",
+  phoneDisplay: "+92 311 222 4164",
+  phoneRaw: "+923112224164",
   email: "shahzaibkhatri918@gmail.com",
+  whatsapp: "https://wa.me/qr/2VN76ADOOWBDI1",
+  facebook: "https://www.facebook.com/profile.php?id=61576272671314",
+  fiverr: "https://www.fiverr.com/s/ZmbdXmp",
 };
 
 export const categories = [
@@ -21,48 +25,12 @@ export const orbitServices = [
 ];
 
 export const services = [
-  {
-    title: "Talking Head Editing",
-    tag: "Advanced",
-    icon: "▣",
-    text: "Clean jump cuts, zooms, captions, b-roll and retention-focused pacing for creators and coaches.",
-    points: ["Clean pacing", "Caption design", "B-roll placement", "Sound polish"],
-  },
-  {
-    title: "High Converting VSL",
-    tag: "Expert",
-    icon: "◎",
-    text: "Sales video editing with hook-based structure, visual flow, subtitles and conversion polish.",
-    points: ["Strong hooks", "Offer clarity", "Visual storytelling", "Conversion flow"],
-  },
-  {
-    title: "Facebook Ads Editing",
-    tag: "Growth",
-    icon: "✦",
-    text: "Scroll-stopping ad creatives for brands, products and service-based businesses.",
-    points: ["Fast opening", "Offer highlights", "CTA moments", "Ad-ready export"],
-  },
-  {
-    title: "Podcast Editing",
-    tag: "Studio",
-    icon: "◉",
-    text: "Full podcast cleanup, multicam cuts, social clips and professional audio-video polish.",
-    points: ["Audio cleanup", "Multi-cam edit", "Social clips", "Intro/outro"],
-  },
-  {
-    title: "Short Form Content",
-    tag: "Social",
-    icon: "#",
-    text: "Reels, Shorts and TikToks with modern captions, fast pacing and engaging visual rhythm.",
-    points: ["Viral pacing", "Captions", "SFX", "Platform formats"],
-  },
-  {
-    title: "Corporate & Event Recap",
-    tag: "Premium",
-    icon: "▤",
-    text: "Cinematic brand films, corporate edits and event recap videos with premium delivery.",
-    points: ["Color grade", "Music sync", "Brand style", "Final delivery"],
-  },
+  { title: "Talking Head Editing", tag: "Advanced", icon: "▣", text: "Clean jump cuts, zooms, captions, b-roll and retention-focused pacing.", points: ["Clean pacing", "Caption design", "B-roll placement", "Sound polish"] },
+  { title: "High Converting VSL", tag: "Expert", icon: "◎", text: "Sales video editing with hook-based structure, visual flow and conversion polish.", points: ["Strong hooks", "Offer clarity", "Story flow", "Conversion CTA"] },
+  { title: "Facebook Ads Editing", tag: "Growth", icon: "✦", text: "Scroll-stopping ad creatives for brands, products and service businesses.", points: ["Fast opening", "Offer highlights", "CTA moments", "Ad-ready export"] },
+  { title: "Podcast Editing", tag: "Studio", icon: "◉", text: "Podcast cleanup, multicam cuts, social clips and professional audio-video polish.", points: ["Audio cleanup", "Multi-cam edit", "Social clips", "Intro/outro"] },
+  { title: "Short Form Content", tag: "Social", icon: "#", text: "Reels, Shorts and TikToks with modern captions and fast visual rhythm.", points: ["Viral pacing", "Captions", "SFX", "Platform formats"] },
+  { title: "Corporate & Event Recap", tag: "Premium", icon: "▤", text: "Cinematic brand films, corporate edits and event recap videos.", points: ["Color grade", "Music sync", "Brand style", "Final delivery"] },
 ];
 
 export const projects = [
