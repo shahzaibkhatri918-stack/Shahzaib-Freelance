@@ -7,11 +7,12 @@ export default function ExperiencePage() {
     <div className="site">
       <Navbar />
       <main>
-        <PageHero label="Experience" title="Freelance Video Editing Experience" text="Professional freelance video editor working with local and international clients, creating engaging and conversion-focused videos for businesses, brands and creators." />
-        <section className="section">
-          <div className="twoCol">
-            <div className="card"><span className="tag">Clients</span><h3>Local & International</h3><p>I work with creators, businesses and brands that need clean, professional and engaging videos.</p></div>
-            <div className="card"><span className="tag">Focus</span><h3>Retention & Conversion</h3><p>My editing focuses on strong hooks, smooth flow, cinematic visuals, sound design and high-quality delivery.</p></div>
+        <PageHero label="Experience" title="Professional Journey" text="Building editing experience through freelance work, local clients, international clients and content-focused projects." />
+        <section className="section fade-up">
+          <div className="journeyWrap">
+            <div className="journeyCard"><div className="date">2024 - Present</div><div><h3>Freelance Photo & Video Content Editor</h3><p>Creating engaging videos, reels, talking head edits, event recaps and conversion-focused content for brands and creators.</p></div></div>
+            <div className="journeyCard"><div className="date">Client Projects</div><div><h3>Local & International Clients</h3><p>Working with clients who need reliable editing, clean communication and professional delivery.</p></div></div>
+            <div className="journeyCard"><div className="date">Core Focus</div><div><h3>High Retention Editing</h3><p>Specialized in clean pacing, sound design, captions, b-roll, smooth transitions and polished final videos.</p></div></div>
           </div>
         </section>
       </main>

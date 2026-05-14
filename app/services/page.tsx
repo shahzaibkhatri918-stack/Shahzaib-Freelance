@@ -1,6 +1,7 @@
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import PageHero from "../../components/PageHero";
+import ServiceOrbit from "../../components/ServiceOrbit";
 import { services } from "../../data/site";
 
 export default function ServicesPage() {
@@ -8,14 +9,15 @@ export default function ServicesPage() {
     <div className="site">
       <Navbar />
       <main>
-        <PageHero label="Services" title="Editing Services Built For Attention" text="From talking head content to VSLs, ads, podcasts, reels and corporate videos, every edit is designed to look premium and keep viewers watching." />
-        <section className="section">
+        <PageHero label="Services" title="Professional Video Editing Services" text="Editing services for creators, coaches, brands, podcasts, businesses and social media teams." />
+        <section className="orbitSection"><div className="orbitTitle"><span className="pill">Service Map</span><h2>Choose The <span className="yellow">Editing Service</span></h2><p>Premium motion service orbit for all editing categories.</p></div><ServiceOrbit /></section>
+        <section className="section dark fade-up">
           <div className="grid">
-            {services.map((service, index) => (
-              <article className="card" key={service}>
-                <span className="tag">0{index + 1}</span>
-                <h3>{service}</h3>
-                <p>Premium editing with strong pacing, clean visuals, sound design and professional polish.</p>
+            {services.map((service) => (
+              <article className="serviceCard" key={service.title}>
+                <span className="serviceLabel">{service.tag}</span>
+                <h3>{service.title}</h3>
+                <p>{service.text}</p>
               </article>
             ))}
           </div>

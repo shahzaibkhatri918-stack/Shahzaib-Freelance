@@ -11,14 +11,13 @@ const links = [
 ];
 
 export default function Navbar() {
-  const parts = site.brand.split(" ");
   return (
-    <header className="nav">
-      <Link className="brand" href="/"><span>{parts[0]}</span> {parts[1]}</Link>
+    <header className="nav fade-down">
+      <Link className="brand" href="/">{site.name}</Link>
       <nav className="navLinks">
-        {links.map((link) => <Link href={link.href} key={link.href}>{link.label}</Link>)}
+        {links.map((link) => <Link key={link.href} href={link.href}>{link.label}</Link>)}
       </nav>
-      <Link className="navCta" href="/contact">Hire Me</Link>
+      <Link className="navCta" href="/contact">Start Project</Link>
     </header>
   );
 }

@@ -8,11 +8,15 @@ export default function AboutPage() {
     <div className="site">
       <Navbar />
       <main>
-        <PageHero label="About" title="I Edit Videos That Feel Premium" text="I am Shahzaib Soomro, a professional freelance video editor working with local and international clients. My style is clean, modern, cinematic, fast-paced and focused on viewer retention." />
-        <section className="section">
-          <div className="twoCol">
-            <div className="card"><span className="tag">Editing Style</span><h3>Clean, Modern & High Retention</h3><p>I create engaging edits with smooth transitions, sound design, color grading, motion graphics and strong pacing.</p></div>
-            <div className="card"><span className="tag">Main Software</span><h3>DaVinci Resolve</h3><p>My main editing software is DaVinci Resolve for professional editing, color grading, audio polish and cinematic storytelling.</p><div className="skillWrap">{skills.map((skill) => <span className="skill" key={skill}>{skill}</span>)}</div></div>
+        <PageHero label="About" title="Shahzaib Soomro — Professional Video Editor" text="I create clean, modern, professional, fast-paced and cinematic videos for businesses, brands, creators and international clients." />
+        <section className="section fade-up">
+          <div className="split">
+            <div>
+              <h2 style={{fontFamily:"Georgia,serif",fontSize:"54px",margin:"0 0 20px"}}>Editing Style</h2>
+              <p className="sectionIntro">My focus is simple: strong hooks, smooth pacing, premium visuals, clear sound, clean subtitles and a final video that feels professional.</p>
+              <div className="skills">{skills.map((skill) => <span className="skill" key={skill}>{skill}</span>)}</div>
+            </div>
+            <div className="podcastPanel"><h3>Main Software</h3><p>DaVinci Resolve is my main software for editing, color grading, transitions, audio polish and cinematic storytelling.</p><div className="progress"><span></span></div></div>
           </div>
         </section>
       </main>

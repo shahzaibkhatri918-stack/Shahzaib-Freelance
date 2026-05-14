@@ -1,0 +1,5 @@
+Upload your files with these names:
+
+public/hero.jpg
+public/projects/project-1.jpg ... project-6.jpg
+public/testimonials/client-1.jpg ... client-6.jpg

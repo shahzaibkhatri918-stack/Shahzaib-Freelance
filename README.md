@@ -1,13 +1,10 @@
-# Shahzaib Soomro Premium Portfolio
+# Shahzaib Soomro Animated Portfolio
 
-Separate pages:
-Home `/`, About `/about`, Portfolio `/portfolio`, Services `/services`, Experience `/experience`, Contact `/contact`
+Includes:
+- Full website fade-in
+- Premium services orbit animation
+- Separate pages
+- Premium footer
+- Testimonials section
 
-Add your video:
-Put your video in `public/showreel.mp4`
-
-Run:
-```bash
-npm install
-npm run dev
-```
+Upload contents to GitHub root, not the outer folder.
