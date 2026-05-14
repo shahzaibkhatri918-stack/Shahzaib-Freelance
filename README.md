@@ -1,10 +1,3 @@
-# Shahzaib Soomro Animated Portfolio
+# Shahzaib Soomro Cinematic Premium Fixed
 
-Includes:
-- Full website fade-in
-- Premium services orbit animation
-- Separate pages
-- Premium footer
-- Testimonials section
-
-Upload contents to GitHub root, not the outer folder.
+Improved category filtering, premium hover cards, readable service animation, and improved services section.

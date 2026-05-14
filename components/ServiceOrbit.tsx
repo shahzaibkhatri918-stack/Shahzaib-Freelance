@@ -2,40 +2,25 @@ import Link from "next/link";
 import { orbitServices } from "../data/site";
 
 export default function ServiceOrbit() {
-  const row1 = orbitServices.slice(0, 5);
-  const row2 = orbitServices.slice(5, 10);
-  const row3 = orbitServices.slice(10, 15);
+  const row1 = orbitServices.slice(0, 4);
+  const row2 = orbitServices.slice(4, 8);
+  const row3 = orbitServices.slice(8, 12);
 
   return (
-    <div className="orbitWrap fade-up">
-      <div className="orbitGlow"></div>
-      <div className="orbitCenter">
-        <strong>Premium Editing</strong>
-        <span>click any service</span>
+    <div className="orbitBox fade-up">
+      <div className="orbitText">
+        <h3>Service Motion System</h3>
+        <p>Click any service to open the services page.</p>
       </div>
 
-      <div className="orbitRing ringOne">
-        {row1.map((item, index) => (
-          <Link href="/services" className={`orbitBadge badge${index + 1}`} key={item}>
-            <span></span>{item}
-          </Link>
-        ))}
+      <div className="orbitLane laneOne">
+        {row1.map((item) => <Link href="/services" className="orbitChip" key={item}><span></span>{item}</Link>)}
       </div>
-
-      <div className="orbitRing ringTwo">
-        {row2.map((item, index) => (
-          <Link href="/services" className={`orbitBadge badge${index + 1}`} key={item}>
-            <span></span>{item}
-          </Link>
-        ))}
+      <div className="orbitLane laneTwo">
+        {row2.map((item) => <Link href="/services" className="orbitChip" key={item}><span></span>{item}</Link>)}
       </div>
-
-      <div className="orbitRing ringThree">
-        {row3.map((item, index) => (
-          <Link href="/services" className={`orbitBadge badge${index + 1}`} key={item}>
-            <span></span>{item}
-          </Link>
-        ))}
+      <div className="orbitLane laneThree">
+        {row3.map((item) => <Link href="/services" className="orbitChip" key={item}><span></span>{item}</Link>)}
       </div>
     </div>
   );
