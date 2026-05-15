@@ -8,7 +8,7 @@ export default function Testimonials() {
         <h2>
           What <span className="pink">Clients</span> Say
         </h2>
-        <p>Six testimonial cards are ready. Replace images later inside public/testimonials.</p>
+       <p>Trusted by creators, business owners and brands who value premium editing and reliable delivery.</p>
       </div>
 
       <div className="testimonialGrid">
