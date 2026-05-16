@@ -1,3 +1,3 @@
-# Shahzaib Final Updated Portfolio
+# Shahzaib Dark Cinematic Theme
 
-Final updates: clickable WhatsApp/email, formatted phone, centered animation, testimonials on portfolio and experience, social links in footer, link hover colors.
+Dark cinematic homepage theme inspired by premium video editor portfolio layout.

@@ -7,27 +7,13 @@ export default function ServiceOrbit() {
   return (
     <div className="orbitBox fade-up">
       <div className="orbitTrack trackOne">
-        {repeated.map((item, i) => (
-          <Link href="/services" className="orbitChip" key={"a" + i}>
-            <span></span>{item}
-          </Link>
-        ))}
+        {repeated.map((item, i) => <Link href="/services" className="orbitChip" key={"a"+i}><span></span>{item}</Link>)}
       </div>
-
       <div className="orbitTrack trackTwo">
-        {repeated.map((item, i) => (
-          <Link href="/services" className="orbitChip" key={"b" + i}>
-            <span></span>{item}
-          </Link>
-        ))}
+        {repeated.map((item, i) => <Link href="/services" className="orbitChip" key={"b"+i}><span></span>{item}</Link>)}
       </div>
-
       <div className="orbitTrack trackThree">
-        {repeated.map((item, i) => (
-          <Link href="/services" className="orbitChip" key={"c" + i}>
-            <span></span>{item}
-          </Link>
-        ))}
+        {repeated.map((item, i) => <Link href="/services" className="orbitChip" key={"c"+i}><span></span>{item}</Link>)}
       </div>
     </div>
   );

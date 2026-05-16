@@ -13,8 +13,8 @@ export default function HomePage() {
       <main>
         <section className="hero fade-up">
           <div>
-            <h1>Crafting Stories That <span className="yellow">Capture</span> & <span className="pink">Convert</span></h1>
-            <p className="heroText">Professional video editing for creators, brands and businesses. I turn raw footage into clean, cinematic and high-retention content that looks premium and keeps viewers watching.</p>
+            <h1>Transforming <span className="yellow">Vision</span> Into Unforgettable <span className="pink">Video</span></h1>
+            <p className="heroText">Expert video editing for brands, creators and businesses seeking cinematic storytelling, clean pacing and premium impact.</p>
             <div className="heroStats"><div><strong>70+</strong><span>Projects Completed</span></div><div><strong>50M+</strong><span>Potential Views Created</span></div></div>
             <div className="heroActions"><Link className="btn" href="/portfolio">View Portfolio</Link><Link className="btn outline" href="/contact">Start Project</Link></div>
           </div>
