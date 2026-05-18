@@ -1529,3 +1529,43 @@ a {
 .category:nth-of-type(7) > div:first-child {
   background: linear-gradient(135deg, #f59e0b, #eab308) !important;
 }
+/* ===== 1. HEADER BUTTON GAP FIX ===== */
+.navLinks {
+  margin-right: 10px !important;
+}
+
+/* ===== 2. CATEGORY ICON COLORS ===== */
+.category:nth-child(1) .icon {
+  background: linear-gradient(135deg, #a855f7, #ec4899) !important;
+  color: #ffffff !important;
+}
+
+.category:nth-child(2) .icon {
+  background: linear-gradient(135deg, #3b82f6, #06b6d4) !important;
+  color: #ffffff !important;
+}
+
+.category:nth-child(3) .icon {
+  background: linear-gradient(135deg, #10b981, #14b8a6) !important;
+  color: #ffffff !important;
+}
+
+.category:nth-child(4) .icon {
+  background: linear-gradient(135deg, #f97316, #ef4444) !important;
+  color: #ffffff !important;
+}
+
+.category:nth-child(5) .icon {
+  background: linear-gradient(135deg, #ec4899, #f43f5e) !important;
+  color: #ffffff !important;
+}
+
+.category:nth-child(6) .icon {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6) !important;
+  color: #ffffff !important;
+}
+
+.category:nth-child(7) .icon {
+  background: linear-gradient(135deg, #f59e0b, #eab308) !important;
+  color: #ffffff !important;
+}
