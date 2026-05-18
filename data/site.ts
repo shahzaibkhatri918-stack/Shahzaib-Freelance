@@ -43,12 +43,12 @@ export const projects = [
 ];
 
 export const testimonials = [
-  { name: "Daniel R.", role: "Business Coach", text: "The edit looked premium and kept the message sharp from the first second.", img: "/testimonials/client-1.jpg" },
-  { name: "Sarah M.", role: "Content Creator", text: "Clean captions, smooth pacing and very professional final delivery.", img: "/testimonials/client-2.jpg" },
-  { name: "Kevin A.", role: "Agency Owner", text: "The ads felt polished and ready for launch. Great communication too.", img: "/testimonials/client-3.jpg" },
-  { name: "Maya L.", role: "Podcast Host", text: "Our podcast clips became easier to watch and much more engaging.", img: "/testimonials/client-4.jpg" },
-  { name: "Omar S.", role: "Startup Founder", text: "He understood the brand style quickly and delivered a clean edit.", img: "/testimonials/client-5.jpg" },
-  { name: "Emily T.", role: "Marketing Manager", text: "Reliable, polished and on-brand. The final video looked excellent.", img: "/testimonials/client-6.jpg" },
+  { name: "Daniel R.", role: "Business Coach", text: "The edit looked premium and kept the message sharp from the first second.", img: "/testimonials/client1.jpg" },
+  { name: "Sarah M.", role: "Content Creator", text: "Clean captions, smooth pacing and very professional final delivery.", img: "/testimonials/client2.jpg" },
+  { name: "Kevin A.", role: "Agency Owner", text: "The ads felt polished and ready for launch. Great communication too.", img: "/testimonials/client3.jpg" },
+  { name: "Maya L.", role: "Podcast Host", text: "Our podcast clips became easier to watch and much more engaging.", img: "/testimonials/client4.jpg" },
+  { name: "Omar S.", role: "Startup Founder", text: "He understood the brand style quickly and delivered a clean edit.", img: "/testimonials/client5.jpg" },
+  { name: "Emily T.", role: "Marketing Manager", text: "Reliable, polished and on-brand. The final video looked excellent.", img: "/testimonials/client6.jpg" },
 ];
 
 export const skills = ["DaVinci Resolve","High Retention Editing","Motion Graphics","Smooth Transitions","Sound Design","Color Grading","Reels Editing","YouTube Editing","Corporate Editing","Event Recap"];
