@@ -123,7 +123,7 @@ a {
 .pageHero h1,
 .sectionTitle h2 {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(58px, 8vw, 128px);
+  font-size: clamp(35px, 7vw, 100px);
   line-height: 0.88;
   letter-spacing: -4px;
   margin: 0;
@@ -134,17 +134,17 @@ a {
 .pink { color: #e82b92; }
 
 .heroText {
-  font-size: clamp(20px, 2vw, 29px);
-  line-height: 1.35;
+  font-size: clamp(15px, 2vw, 25px);
+  line-height: 1.30;
   color: #e8e8e8;
-  max-width: 760px;
-  margin: 35px 0;
-  font-weight: 700;
+  max-width: 730px;
+  margin: 30px 0;
+  font-weight: 600;
 }
 
 .heroStats {
   display: flex;
-  gap: 46px;
+  gap: 50px;
   margin: 30px 0;
 }
 
