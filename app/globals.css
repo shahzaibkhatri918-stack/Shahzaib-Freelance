@@ -1179,3 +1179,29 @@ a {
     min-width: 86vw;
   }
 }
+/* FINAL HERO BALANCE FIX */
+@media (min-width: 769px) {
+  .hero h1 {
+    font-size: clamp(52px, 6.8vw, 105px) !important;
+    line-height: 0.9 !important;
+  }
+
+  .heroVisual {
+    max-width: 760px !important;
+    aspect-ratio: 16 / 9 !important;
+    min-height: auto !important;
+  }
+
+  .heroVisual video,
+  .heroVisual img {
+    top: 64px !important;
+    height: calc(100% - 64px) !important;
+    object-fit: cover !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroVisual {
+    display: none !important;
+  }
+}
