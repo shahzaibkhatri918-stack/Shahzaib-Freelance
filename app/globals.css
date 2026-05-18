@@ -1252,23 +1252,29 @@ a {
     bottom: 28px !important;
   }
 }
-/* ===== DESKTOP HEADER HOVER EFFECT (MOBILE MENU KO TOUCH NAHI KAREGA) ===== */
-/* Is code ko app/globals.css ke bilkul END me paste karo */
-
+/* ===== CINEMATIC GRADIENT HOVER FOR DESKTOP MENU ONLY ===== */
 @media (min-width: 769px) {
-  /* Desktop navigation links */
+  /* Sirf navigation menu ke links */
   .nav a {
     position: relative !important;
     color: rgba(255, 255, 255, 0.92) !important;
-    transition: color 0.35s ease !important;
+    transition: all 0.4s ease !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
   }
 
-  /* Premium golden hover color */
+  /* Cinematic gradient text on hover */
   .nav a:hover {
-    color: #ffd400 !important;
+    background: linear-gradient(90deg, #ffd400 0%, #ff4da6 50%, #ffffff 100%) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow:
+      0 0 12px rgba(255, 212, 0, 0.25),
+      0 0 24px rgba(255, 77, 166, 0.18) !important;
   }
 
-  /* Animated underline */
+  /* Animated gradient underline */
   .nav a::after {
     content: "" !important;
     position: absolute !important;
@@ -1277,11 +1283,18 @@ a {
     width: 100% !important;
     height: 3px !important;
     border-radius: 999px !important;
-    background: linear-gradient(90deg, #ffd400, #ffea70) !important;
-    box-shadow: 0 0 10px rgba(255, 212, 0, 0.45) !important;
+    background: linear-gradient(
+      90deg,
+      #ffd400 0%,
+      #ff4da6 55%,
+      #ffffff 100%
+    ) !important;
+    box-shadow:
+      0 0 10px rgba(255, 212, 0, 0.35),
+      0 0 18px rgba(255, 77, 166, 0.18) !important;
     transform: scaleX(0) !important;
     transform-origin: left center !important;
-    transition: transform 0.35s ease !important;
+    transition: transform 0.4s ease !important;
   }
 
   /* Show underline on hover */
@@ -1292,7 +1305,10 @@ a {
   /* Active/current page link */
   .nav a.active,
   .nav a[aria-current="page"] {
-    color: #ffd400 !important;
+    background: linear-gradient(90deg, #ffd400 0%, #ff4da6 55%, #ffffff 100%) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
   }
 
   .nav a.active::after,
