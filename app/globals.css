@@ -1252,4 +1252,51 @@ a {
     bottom: 28px !important;
   }
 }
+/* ===== DESKTOP HEADER HOVER EFFECT (MOBILE MENU KO TOUCH NAHI KAREGA) ===== */
+/* Is code ko app/globals.css ke bilkul END me paste karo */
 
+@media (min-width: 769px) {
+  /* Desktop navigation links */
+  .nav a {
+    position: relative !important;
+    color: rgba(255, 255, 255, 0.92) !important;
+    transition: color 0.35s ease !important;
+  }
+
+  /* Premium golden hover color */
+  .nav a:hover {
+    color: #ffd400 !important;
+  }
+
+  /* Animated underline */
+  .nav a::after {
+    content: "" !important;
+    position: absolute !important;
+    left: 0 !important;
+    bottom: -8px !important;
+    width: 100% !important;
+    height: 3px !important;
+    border-radius: 999px !important;
+    background: linear-gradient(90deg, #ffd400, #ffea70) !important;
+    box-shadow: 0 0 10px rgba(255, 212, 0, 0.45) !important;
+    transform: scaleX(0) !important;
+    transform-origin: left center !important;
+    transition: transform 0.35s ease !important;
+  }
+
+  /* Show underline on hover */
+  .nav a:hover::after {
+    transform: scaleX(1) !important;
+  }
+
+  /* Active/current page link */
+  .nav a.active,
+  .nav a[aria-current="page"] {
+    color: #ffd400 !important;
+  }
+
+  .nav a.active::after,
+  .nav a[aria-current="page"]::after {
+    transform: scaleX(1) !important;
+  }
+}
