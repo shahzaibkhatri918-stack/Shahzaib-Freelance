@@ -18,7 +18,20 @@ export default function HomePage() {
             <div className="heroStats"><div><strong>70+</strong><span>Projects Completed</span></div><div><strong>50M+</strong><span>Potential Views Created</span></div></div>
             <div className="heroActions"><Link className="btn" href="/portfolio">View Portfolio</Link><Link className="btn outline" href="/contact">Start Project</Link></div>
           </div>
-          <div className="heroVisual"><img src="/hero.jpg" alt="Shahzaib Soomro portrait" /><div className="imagePlaceholder">Upload your image as public/hero.jpg</div><div className="floatingBadge">DaVinci Resolve Editor</div></div>
+          <div className="heroVisual">
+  <video
+    className="heroVideo"
+    src="/hero-video.mp4"
+    autoPlay
+    muted
+    loop
+    playsInline
+  />
+  <div className="imagePlaceholder">
+    Upload your video as public/hero-video.mp4
+  </div>
+  <div className="floatingBadge">Cinematic Video</div>
+</div>
         </section>
         <section className="section fade-up"><div className="sectionTitle"><span className="pill">Featured Portfolio</span><h2>Discover <span className="yellow">Editing Work</span></h2><p>Click a category to filter the project cards below. Upload your own thumbnails later.</p></div><PortfolioFilter /></section>
         <section className="orbitSection"><div className="orbitTitle fade-up"><span className="pill">Motion Services</span><h2>Premium <span className="yellow">Editing Services</span> In Motion</h2><p>Normal-speed premium service animation. Click any service to open services.</p></div><ServiceOrbit /></section>
