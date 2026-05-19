@@ -26,6 +26,7 @@ export default function PortfolioFilter() {
            <video
   src={project.video}
   controls
+  autoPlay
   playsInline
   className="projectVideo"
 />
