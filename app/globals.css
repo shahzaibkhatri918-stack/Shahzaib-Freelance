@@ -1529,3 +1529,96 @@ a {
     font-size: 12px !important;
   }
 }
+/* =========================================================
+   PREMIUM ACTIVE CATEGORY STYLE
+   Jab kisi category box par click ho (active class lage),
+   to text ka color bilkul Home menu jaisa gradient ho jayega.
+   Is code ko app/globals.css ke END me paste karo.
+   ========================================================= */
+
+/* Active Category Card */
+.category.active,
+.category[aria-selected="true"] {
+  border: 2px solid rgba(255, 212, 0, 0.45) !important;
+  box-shadow:
+    0 20px 40px rgba(255, 212, 0, 0.15),
+    0 0 30px rgba(255, 77, 166, 0.08) !important;
+  transform: translateY(-6px) scale(1.02) !important;
+}
+
+/* Active Card Title Gradient (Home menu jaisa) */
+.category.active h3,
+.category[aria-selected="true"] h3 {
+  background: linear-gradient(
+    90deg,
+    #ffd400 0%,
+    #ffe45c 30%,
+    #ff8ac6 70%,
+    #ffffff 100%
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-shadow:
+    0 0 12px rgba(255, 212, 0, 0.25),
+    0 0 20px rgba(255, 77, 166, 0.12) !important;
+}
+
+/* Active Card Subtitle Gradient */
+.category.active p,
+.category[aria-selected="true"] p {
+  background: linear-gradient(
+    90deg,
+    #ffd400 0%,
+    #ff9fd0 100%
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: 600 !important;
+}
+
+/* Active Project Count Badge */
+.category.active .projectCount,
+.category[aria-selected="true"] .projectCount,
+.category.active .count,
+.category[aria-selected="true"] .count {
+  background: linear-gradient(
+    135deg,
+    #ffd400,
+    #ff4da6
+  ) !important;
+  color: #111 !important;
+  border-color: transparent !important;
+  box-shadow:
+    0 8px 20px rgba(255, 212, 0, 0.25) !important;
+}
+
+/* Active Icon Glow */
+.category.active .catIcon,
+.category[aria-selected="true"] .catIcon {
+  transform: scale(1.08) !important;
+  box-shadow:
+    0 15px 30px rgba(255, 212, 0, 0.22),
+    0 0 25px rgba(255, 77, 166, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+}
+
+/* Bottom Gradient Underline */
+.category.active::after,
+.category[aria-selected="true"]::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 18px !important;
+  right: 18px !important;
+  bottom: 10px !important;
+  height: 4px !important;
+  border-radius: 999px !important;
+  background: linear-gradient(
+    90deg,
+    #ffd400 0%,
+    #ff4da6 100%
+  ) !important;
+  box-shadow:
+    0 0 12px rgba(255, 212, 0, 0.35) !important;
+}
