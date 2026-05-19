@@ -1622,3 +1622,9 @@ a {
   box-shadow:
     0 0 12px rgba(255, 212, 0, 0.35) !important;
 }
+.projectVideo {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
