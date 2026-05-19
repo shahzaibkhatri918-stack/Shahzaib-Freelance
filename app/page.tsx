@@ -18,7 +18,7 @@ export default function HomePage() {
             <div className="heroStats"><div><strong>70+</strong><span>Projects Completed</span></div><div><strong>50M+</strong><span>Potential Views Created</span></div></div>
             <div className="heroActions"><Link className="btn" href="/portfolio">View Portfolio</Link><Link className="btn outline" href="/contact">Start Project</Link></div>
           </div>
-          <div className="heroVisual">
+         <div className="heroVisual">
   <video
     className="heroVideo"
     src="/hero-video.mp4"
@@ -26,10 +26,8 @@ export default function HomePage() {
     muted
     loop
     playsInline
+    controls
   />
-  <div className="imagePlaceholder">
-    Upload your video as public/hero-video.mp4
-  </div>
   <div className="floatingBadge">Cinematic Video</div>
 </div>
         </section>
