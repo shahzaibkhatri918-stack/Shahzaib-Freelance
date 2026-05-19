@@ -23,11 +23,11 @@ export default function HomePage() {
     className="heroVideo"
     src="/hero-video.mp4"
     autoPlay
-    muted
-    loop
-    playsInline
-    controls
-  />
+  muted
+  loop
+  playsInline
+  controls
+/>
   <div className="floatingBadge">Cinematic Video</div>
 </div>
         </section>
