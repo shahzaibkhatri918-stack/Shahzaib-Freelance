@@ -23,9 +23,16 @@ export default function PortfolioFilter() {
         {visible.map((project) => (
           <article className="projectCard fade-up" key={project.title}>
             <div className="projectThumb">
-              <img src={project.img} alt={project.title} />
-              <span className="playDot">▶</span>
-              <div className="thumbFallback">Upload<br />{project.img}</div>
+           <video
+  src={project.video}
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="projectVideo"
+/>
+<span className="playDot">▶</span>
+<div className="thumbFallback">Upload<br />{project.video}</div>
             </div>
             <div className="projectInfo">
               <span className="tag">{project.label}</span>
