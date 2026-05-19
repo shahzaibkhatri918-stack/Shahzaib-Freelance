@@ -1803,3 +1803,43 @@ a {
     border-radius: 14px 14px 0 0 !important;
   }
 }
+/* FINAL PROJECT VIDEO CARD FIX */
+.projectThumb {
+  height: 520px !important;
+  background: #000 !important;
+  overflow: hidden !important;
+  border-radius: 14px 14px 0 0 !important;
+  position: relative !important;
+  padding-bottom: 48px !important; /* controls ke liye space */
+  box-sizing: border-box !important;
+}
+
+.projectThumb video,
+.projectVideo {
+  width: 100% !important;
+  height: calc(100% - 48px) !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  background: #000 !important;
+  display: block !important;
+  border-radius: 14px 14px 0 0 !important;
+}
+
+.projectThumb::before,
+.projectThumb::after,
+.playDot,
+.thumbFallback {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .projectThumb {
+    height: 430px !important;
+    padding-bottom: 46px !important;
+  }
+
+  .projectThumb video,
+  .projectVideo {
+    height: calc(100% - 46px) !important;
+  }
+}
