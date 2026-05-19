@@ -1754,3 +1754,52 @@ a {
     height: 430px !important;
   }
 }
+/* FINAL PORTFOLIO VIDEO CONTROLS + CORNER FIX */
+
+.portfolioGrid .projectCard .projectThumb {
+  height: 520px !important;
+  background: #000 !important;
+  overflow: hidden !important;
+  border-radius: 16px 16px 0 0 !important;
+  position: relative !important;
+}
+
+.portfolioGrid .projectCard .projectVideo,
+.portfolioGrid .projectCard .projectThumb video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  background: #000 !important;
+  display: block !important;
+  border-radius: 16px 16px 0 0 !important;
+  position: relative !important;
+  z-index: 10 !important;
+  pointer-events: auto !important;
+}
+
+/* Ye overlay controls ko block kar raha tha */
+.portfolioGrid .projectCard .playDot,
+.portfolioGrid .projectCard .thumbFallback {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+/* Make sure nothing blocks video controls */
+.portfolioGrid .projectCard .projectThumb::before,
+.portfolioGrid .projectCard .projectThumb::after {
+  display: none !important;
+  content: none !important;
+}
+
+@media (max-width: 768px) {
+  .portfolioGrid .projectCard .projectThumb {
+    height: 430px !important;
+    border-radius: 14px 14px 0 0 !important;
+  }
+
+  .portfolioGrid .projectCard .projectVideo,
+  .portfolioGrid .projectCard .projectThumb video {
+    border-radius: 14px 14px 0 0 !important;
+  }
+}
