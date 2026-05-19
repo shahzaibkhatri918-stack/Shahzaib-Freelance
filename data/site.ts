@@ -5,7 +5,7 @@ export const site = {
   email: "shahzaibkhatri918@gmail.com",
   whatsapp: "https://wa.me/qr/2VN76ADOOWBDI1",
   facebook: "https://www.facebook.com/profile.php?id=61576272671314",
-  fiverr: "https://www.fiverr.com/s/ZmbdXmp",
+  fiverr: "https://www.fiverr.com/saleem__danish",
 };
 
 export const categories = [
