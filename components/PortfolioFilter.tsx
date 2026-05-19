@@ -26,8 +26,8 @@ export default function PortfolioFilter() {
            <video
   src={project.video}
   controls
-  autoPlay
   playsInline
+  preload="metadata"
   className="projectVideo"
 />
 <span className="playDot">▶</span>
