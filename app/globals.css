@@ -1754,92 +1754,84 @@ a {
     height: 430px !important;
   }
 }
-/* FINAL PORTFOLIO VIDEO CONTROLS + CORNER FIX */
-
-.portfolioGrid .projectCard .projectThumb {
-  height: 520px !important;
+/* Video container */
+.projectThumb {
+  position: relative !important;
+  width: 100% !important;
+  height: 520px !important; /* Full height for vertical videos */
   background: #000 !important;
   overflow: hidden !important;
-  border-radius: 16px 16px 0 0 !important;
-  position: relative !important;
+  border-radius: 14px 14px 0 0 !important;
+  display: block !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.portfolioGrid .projectCard .projectVideo,
-.portfolioGrid .projectCard .projectThumb video {
+/* Video element */
+.projectThumb video,
+.projectVideo {
   width: 100% !important;
   height: 100% !important;
-  object-fit: contain !important;
-  object-position: center !important;
-  background: #000 !important;
   display: block !important;
-  border-radius: 16px 16px 0 0 !important;
-  position: relative !important;
-  z-index: 10 !important;
-  pointer-events: auto !important;
+  object-fit: contain !important; /* Show complete vertical video */
+  object-position: center center !important;
+  background: #000 !important;
+  border-radius: 14px 14px 0 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* Ye overlay controls ko block kar raha tha */
-.portfolioGrid .projectCard .playDot,
-.portfolioGrid .projectCard .thumbFallback {
-  display: none !important;
-  pointer-events: none !important;
-}
-
-/* Make sure nothing blocks video controls */
-.portfolioGrid .projectCard .projectThumb::before,
-.portfolioGrid .projectCard .projectThumb::after {
+/* Remove overlays */
+.playDot,
+.thumbFallback,
+.projectThumb::before,
+.projectThumb::after {
   display: none !important;
   content: none !important;
 }
 
-@media (max-width: 768px) {
-  .portfolioGrid .projectCard .projectThumb {
-    height: 430px !important;
-    border-radius: 14px 14px 0 0 !important;
-  }
-
-  .portfolioGrid .projectCard .projectVideo,
-  .portfolioGrid .projectCard .projectThumb video {
-    border-radius: 14px 14px 0 0 !important;
-  }
-}
-/* FINAL PROJECT VIDEO CARD FIX */
-.projectThumb {
-  height: 520px !important;
-  background: #000 !important;
-  overflow: hidden !important;
-  border-radius: 14px 14px 0 0 !important;
+/* Text section starts exactly below video */
+.projectInfo {
   position: relative !important;
-  padding-bottom: 48px !important; /* controls ke liye space */
-  box-sizing: border-box !important;
+  z-index: 1 !important;
+  background: #ffffff !important;
+  margin-top: 0 !important;
+  padding-top: 26px !important;
 }
 
-.projectThumb video,
-.projectVideo {
-  width: 100% !important;
-  height: calc(100% - 48px) !important;
-  object-fit: contain !important;
-  object-position: center !important;
-  background: #000 !important;
-  display: block !important;
-  border-radius: 14px 14px 0 0 !important;
+/* Card layout */
+.projectCard {
+  overflow: hidden !important;
+  border-radius: 14px !important;
 }
 
-.projectThumb::before,
-.projectThumb::after,
-.playDot,
-.thumbFallback {
-  display: none !important;
+/* Tablet */
+@media (max-width: 1024px) {
+  .projectThumb {
+    height: 470px !important;
+  }
 }
 
+/* Mobile */
 @media (max-width: 768px) {
   .projectThumb {
-    height: 430px !important;
-    padding-bottom: 46px !important;
+    height: 420px !important;
+    border-radius: 12px 12px 0 0 !important;
   }
 
   .projectThumb video,
   .projectVideo {
-    height: calc(100% - 46px) !important;
+    border-radius: 12px 12px 0 0 !important;
+  }
+
+  .projectCard {
+    border-radius: 12px !important;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .projectThumb {
+    height: 360px !important;
   }
 }
