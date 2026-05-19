@@ -1365,3 +1365,9 @@ a {
   justify-content: center !important;
   gap: 8px !important;
 }
+/* ===== REMOVE "Cinematic Video" BUTTON ===== */
+/* Is code ko app/globals.css ke bilkul END me paste karo */
+
+.floatingBadge {
+  display: none !important;
+}
