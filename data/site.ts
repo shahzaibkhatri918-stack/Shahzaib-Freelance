@@ -106,12 +106,12 @@ export const services = [
 ];
 
 export const projects = [
-  { title: "Talking Head Growth Edit", type: "talking-head", label: "Creator Content", img: "/projects/project-1.jpg" },
-  { title: "VSL Sales Campaign", type: "vsl", label: "Sales Video", img: "/projects/project-2.jpg" },
-  { title: "Facebook Ad Creative", type: "fb-ads", label: "Paid Ads", img: "/projects/project-3.jpg" },
-  { title: "Podcast Highlight Edit", type: "podcast", label: "Podcast", img: "/projects/project-4.jpg" },
-  { title: "Short Form Reel Pack", type: "reels", label: "Social Media", img: "/projects/project-5.jpg" },
-  { title: "Corporate Recap Film", type: "corporate", label: "Corporate", img: "/projects/project-6.jpg" },
+  { title: "Talking Head Growth Edit", type: "talking-head", label: "Creator Content", video: "/services/talking-head.mp4" },
+  { title: "VSL Sales Campaign", type: "vsl", label: "Sales Video", video: "/services/vsl.mp4" },
+  { title: "Facebook Ad Creative", type: "fb-ads", label: "Paid Ads", video: "/services/facebook-ads.mp4" },
+  { title: "Podcast Highlight Edit", type: "podcast", label: "Podcast", video: "/services/podcast.mp4" },
+  { title: "Short Form Reel Pack", type: "reels", label: "Social Media", video: "/services/reels.mp4" },
+  { title: "Corporate Recap Film", type: "corporate", label: "Corporate", video: "/services/corporate.mp4" },
 ];
 
 export const testimonials = [
