@@ -31,8 +31,8 @@ export default function HomePage() {
   <div className="floatingBadge">Cinematic Video</div>
 </div>
         </section>
-        <section className="section fade-up"><div className="sectionTitle"><span className="pill">Featured Portfolio</span><h2>Discover <span className="yellow">Editing Work</span></h2><p>Click a category to filter the project cards below. Upload your own thumbnails later.</p></div><PortfolioFilter /></section>
-        <section className="orbitSection"><div className="orbitTitle fade-up"><span className="pill">Motion Services</span><h2>Premium <span className="yellow">Editing Services</span> In Motion</h2><p>Normal-speed premium service animation. Click any service to open services.</p></div><ServiceOrbit /></section>
+        <section className="section fade-up"><div className="sectionTitle"><span className="pill">Featured Portfolio</span><h2>Discover <span className="yellow">Editing Work</span></h2><p>A curated showcase of premium video edits designed for creators, brands and businesses worldwide..</p></div><PortfolioFilter /></section>
+        <section className="orbitSection"><div className="orbitTitle fade-up"><span className="pill">Motion Services</span><h2>Premium <span className="yellow">Editing Services</span> In Motion</h2><p>Explore my core editing services built to make every video look professional.</p></div><ServiceOrbit /></section>
         <section className="section dark fade-up"><div className="sectionTitle"><span className="pill">Creative Services</span><h2>World-Class <span className="yellow">Video Editing</span></h2><p>Professional editing services designed for attention, retention and conversion.</p></div><div className="serviceGrid">{services.map((service)=><article className="serviceCard" key={service.title}><div className="serviceIcon">{service.icon}</div><span className="serviceLabel">{service.tag}</span><h3>{service.title}</h3><p>{service.text}</p><ul>{service.points.map((p)=><li key={p}>{p}</li>)}</ul></article>)}</div></section>
         <Testimonials />
       </main>
