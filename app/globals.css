@@ -1723,3 +1723,34 @@ a {
     height: 340px;
   }
 }
+/* FINAL PORTFOLIO VIDEO FIX */
+.portfolioGrid .projectCard .projectThumb {
+  height: 520px !important;
+  background: #000 !important;
+  overflow: hidden !important;
+  border-radius: 22px 22px 0 0 !important;
+}
+
+.portfolioGrid .projectCard .projectThumb video,
+.portfolioGrid .projectCard .projectThumb .projectVideo {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  background: #000 !important;
+  display: block !important;
+}
+
+.portfolioGrid .projectCard .thumbFallback {
+  display: none !important;
+}
+
+.portfolioGrid .projectCard .playDot {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .portfolioGrid .projectCard .projectThumb {
+    height: 430px !important;
+  }
+}
