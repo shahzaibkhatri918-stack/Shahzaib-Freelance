@@ -25,9 +25,7 @@ export default function PortfolioFilter() {
             <div className="projectThumb">
            <video
   src={project.video}
-  autoPlay
-  muted
-  loop
+  controls
   playsInline
   className="projectVideo"
 />
