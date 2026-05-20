@@ -41,43 +41,111 @@ export default function AboutPage() {
             </div>
 
             {/* Right Side - Text */}
-            <div
+<div
   style={{
     fontSize: "1.15rem",
     lineHeight: "1.9",
     color: "#1f2937",
   }}
->              <p>
-                Hi, I'm <strong>Shahzaib Soomro</strong>, a professional video
-                editor from Pakistan specializing in premium video editing for
-                creators, brands and businesses worldwide.
-              </p>
+>
+  <p>
+    Hi, I'm <strong>Shahzaib Soomro</strong>, a professional video editor from
+    Pakistan specializing in premium video editing for creators, brands and
+    businesses worldwide.
+  </p>
 
-              <p>
-                I create Talking Head videos, VSLs, Facebook Ads, Podcast edits,
-                Reels, Shorts and Corporate videos designed to increase
-                engagement, improve retention and deliver cinematic visual
-                quality.
-              </p>
+  <p>
+    I create Talking Head videos, VSLs, Facebook Ads, Podcast edits, Reels,
+    Shorts and Corporate videos designed to increase engagement, improve
+    retention and deliver cinematic visual quality.
+  </p>
 
-              <p>
-                My editing workflow includes clean cuts, motion graphics,
-                subtitles, sound design, color grading and conversion-focused
-                storytelling.
-              </p>
+  <p>
+    My editing workflow includes clean cuts, motion graphics, subtitles, sound
+    design, color grading and conversion-focused storytelling.
+  </p>
 
-              <p>
-                My goal is simple: deliver videos that look professional, keep
-                viewers engaged and help clients grow their business.
-              </p>
+  <p>
+    My goal is simple: deliver videos that look professional, keep viewers
+    engaged and help clients grow their business.
+  </p>
 
-              <p>
-                Whether you need a sales video, YouTube content, social media
-                reels or branded advertisements, I’m ready to bring your vision
-                to life.
-              </p>
-            </div>
-          </div>
+  <p>
+    Whether you need a sales video, YouTube content, social media reels or
+    branded advertisements, I’m ready to bring your vision to life.
+  </p>
+
+  {/* Reviews */}
+  <div
+    style={{
+      display: "flex",
+      gap: "30px",
+      marginTop: "30px",
+      marginBottom: "30px",
+      flexWrap: "wrap",
+    }}
+  >
+    <div>
+      <h3
+        style={{
+          fontSize: "2rem",
+          color: "#facc15",
+          margin: 0,
+          fontWeight: "700",
+        }}
+      >
+        5★
+      </h3>
+      <p style={{ margin: 0, color: "#6b7280" }}>Client Rating</p>
+    </div>
+
+    <div>
+      <h3
+        style={{
+          fontSize: "2rem",
+          color: "#facc15",
+          margin: 0,
+          fontWeight: "700",
+        }}
+      >
+        70+
+      </h3>
+      <p style={{ margin: 0, color: "#6b7280" }}>Projects Completed</p>
+    </div>
+
+    <div>
+      <h3
+        style={{
+          fontSize: "2rem",
+          color: "#facc15",
+          margin: 0,
+          fontWeight: "700",
+        }}
+      >
+        50M+
+      </h3>
+      <p style={{ margin: 0, color: "#6b7280" }}>Views Generated</p>
+    </div>
+  </div>
+
+  {/* Book Project Button */}
+  <a
+    href="/contact"
+    style={{
+      display: "inline-block",
+      background: "#facc15",
+      color: "#000",
+      padding: "14px 32px",
+      borderRadius: "12px",
+      fontWeight: "700",
+      textDecoration: "none",
+      boxShadow: "0 10px 30px rgba(250, 204, 21, 0.35)",
+      transition: "all 0.3s ease",
+    }}
+  >
+    Book Project
+  </a>
+</div>          </div>
         </section>
       </main>
 
