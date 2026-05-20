@@ -143,3 +143,93 @@ export default function AboutPage() {
     </div>
   );
 }
+
+{/* Reviews */}
+<div
+  style={{
+    display: "flex",
+    gap: "30px",
+    marginTop: "30px",
+    marginBottom: "30px",
+    flexWrap: "wrap",
+    alignItems: "center",
+  }}
+>
+  <div
+    style={{
+      minWidth: "120px",
+    }}
+  >
+    <h3
+      style={{
+        fontSize: "2rem",
+        color: "#facc15",
+        margin: "0 0 5px 0",
+        fontWeight: "700",
+      }}
+    >
+      5★
+    </h3>
+    <p
+      style={{
+        margin: 0,
+        color: "#6b7280",
+        fontSize: "0.95rem",
+      }}
+    >
+      Client Rating
+    </p>
+  </div>
+
+  <div
+    style={{
+      minWidth: "120px",
+    }}
+  >
+    <h3
+      style={{
+        fontSize: "2rem",
+        color: "#facc15",
+        margin: "0 0 5px 0",
+        fontWeight: "700",
+      }}
+    >
+      70+
+    </h3>
+    <p
+      style={{
+        margin: 0,
+        color: "#6b7280",
+        fontSize: "0.95rem",
+      }}
+    >
+      Projects Completed
+    </p>
+  </div>
+
+  <div
+    style={{
+      minWidth: "120px",
+    }}
+  >
+    <h3
+      style={{
+        fontSize: "2rem",
+        color: "#facc15",
+        margin: "0 0 5px 0",
+        fontWeight: "700",
+      }}
+    >
+      50M+
+    </h3>
+    <p
+      style={{
+        margin: 0,
+        color: "#6b7280",
+        fontSize: "0.95rem",
+      }}
+    >
+      Views Generated
+    </p>
+  </div>
+</div>
