@@ -42,13 +42,12 @@ export default function AboutPage() {
 
             {/* Right Side - Text */}
             <div
-              style={{
-                fontSize: "1.15rem",
-                lineHeight: "1.9",
-                color: "rgba(255,255,255,0.85)",
-              }}
-            >
-              <p>
+  style={{
+    fontSize: "1.15rem",
+    lineHeight: "1.9",
+    color: "#1f2937",
+  }}
+>              <p>
                 Hi, I'm <strong>Shahzaib Soomro</strong>, a professional video
                 editor from Pakistan specializing in premium video editing for
                 creators, brands and businesses worldwide.
