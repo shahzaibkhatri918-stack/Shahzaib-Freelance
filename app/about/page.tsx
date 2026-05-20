@@ -1,6 +1,7 @@
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import PageHero from "../../components/PageHero";
+import Testimonials from "../../components/Testimonials";
 
 export default function AboutPage() {
   return (
