@@ -44,7 +44,7 @@ export default function Footer() {
     rel="noreferrer"
     aria-label="Facebook"
   >
-    <i className="fab fa-facebook-f"></i>
+    <img src="/icons/facebook.svg" alt="Facebook" width="20" height="20" />
   </a>
 
   <a
@@ -53,7 +53,7 @@ export default function Footer() {
     rel="noreferrer"
     aria-label="Fiverr"
   >
-    Fi
+    <img src="/icons/fiverr.svg" alt="Fiverr" width="20" height="20" />
   </a>
 
   <a
@@ -62,7 +62,7 @@ export default function Footer() {
     rel="noreferrer"
     aria-label="WhatsApp"
   >
-    <i className="fab fa-whatsapp"></i>
+    <img src="/icons/whatsapp.svg" alt="WhatsApp" width="20" height="20" />
   </a>
 </div>
           <a href={`mailto:${site.email}`}>{site.email}</a>
