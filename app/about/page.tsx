@@ -8,7 +8,7 @@ export default function AboutPage() {
     <div className="site">
       <Navbar />
 
-      <main>
+            <main>
         <PageHero
           label="About Us"
           title="Professional Video Editor Focused on Results"
@@ -16,6 +16,14 @@ export default function AboutPage() {
         />
 
         <section className="section fade-up">
+          <div className="aboutGrid">
+            {/* Yahan tumhara image + text wala existing code rahega */}
+          </div>
+        </section>
+
+        {/* Reviews Section */}
+        <Testimonials />
+      </main>
           <div
             style={{
               maxWidth: "1100px",
