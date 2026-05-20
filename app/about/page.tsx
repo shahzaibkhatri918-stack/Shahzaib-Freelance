@@ -9,7 +9,7 @@ export default function AboutPage() {
 
       <main>
         <PageHero
-          label="About Me"
+          label="About Us"
           title="Professional Video Editor Focused on Results"
           text="I help creators, brands and businesses turn raw footage into cinematic, high-converting videos that capture attention and drive engagement."
         />
