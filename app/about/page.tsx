@@ -17,7 +17,6 @@ export default function AboutPage() {
 
         <section className="section fade-up">
           <div className="aboutGrid">
-            {/* Yahan tumhara image + text wala existing code rahega */}
           </div>
         </section>
 
