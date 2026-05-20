@@ -62,17 +62,7 @@ export default function AboutPage() {
 
   <p>
     My editing workflow includes clean cuts, motion graphics, subtitles, sound
-    design, color grading and conversion-focused storytelling.
-  </p>
-
-  <p>
-    My goal is simple: deliver videos that look professional, keep viewers
-    engaged and help clients grow their business.
-  </p>
-
-  <p>
-    Whether you need a sales video, YouTube content, social media reels or
-    branded advertisements, I’m ready to bring your vision to life.
+    design, color grading and conversion-focused.
   </p>
 
   {/* Reviews */}
