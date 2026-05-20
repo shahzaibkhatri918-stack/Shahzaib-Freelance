@@ -7,7 +7,9 @@ export default function AboutPage() {
   return (
     <div className="site">
       <Navbar />
-<main> <PageHero label="About Us" title="Professional Video Editor Focused on Results" text="I help creators, brands and businesses turn raw footage into cinematic, high-converting videos that capture attention and drive engagement." /> <section className="section fade-up"> <div
+<main> <PageHero label="About Us" title="Professional Video Editor Focused on Results" 
+         text="I help creators, brands and businesses turn raw footage into cinematic, high-converting videos that capture attention and drive engagement." 
+         /> <section className="section fade-up"> <div
           <div
             style={{
               maxWidth: "1100px",
