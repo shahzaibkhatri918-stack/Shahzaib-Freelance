@@ -80,8 +80,8 @@ export default function HomePage() {
         alt="Shahzaib Soomro"
         style={{
           width: "100%",
-          maxWidth: "420px",
-          borderRadius: "30px",
+          maxWidth: "520px",
+          borderRadius: "36px",
           border: "2px solid rgba(255, 214, 0, 0.35)",
           boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
         }}
@@ -94,11 +94,12 @@ export default function HomePage() {
 
       <h2
         style={{
-          fontSize: "clamp(42px, 6vw, 82px)",
+          fontSize: "clamp(42px, 5vw, 72px)",
           lineHeight: "0.95",
           margin: "22px 0",
           color: "#111827",
           fontFamily: "serif",
+          maxWidth: "700px",
         }}
       >
         Meet Shahzaib Soomro
