@@ -94,7 +94,7 @@ export default function HomePage() {
 
       <h2
         style={{
-  fontSize: "clamp(40px, 5vw, 67px)",
+  fontSize: "clamp(35px, 5vw, 60px)",
   lineHeight: "0.95",
   margin: "22px 0",
   color: "#111827",
