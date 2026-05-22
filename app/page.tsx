@@ -205,8 +205,7 @@ export default function HomePage() {
       margin: "0 auto 28px",
     }}
   >
-    Professional Video Editor specializing in Talking Head videos,
-    VSLs, Facebook Ads, Podcast edits, Reels and Corporate videos.
+    Tell me about your project and let’s create something amazing.
   </p>
 
   <img
