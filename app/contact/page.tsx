@@ -97,14 +97,26 @@ export default function ContactPage() {
               />
 
               <select name="projectType" required style={inputStyle}>
-                <option value="">Select Project Type</option>
-                <option value="Talking Head Editing">Talking Head Editing</option>
-                <option value="VSL Video">VSL Video</option>
-                <option value="Facebook Ads">Facebook Ads</option>
-                <option value="Podcast Editing">Podcast Editing</option>
-                <option value="Reels / Shorts">Reels / Shorts</option>
-                <option value="Corporate Video">Corporate Video</option>
-              </select>
+  <option value="">Select Project Type</option>
+
+  <option value="Ad Video">Ad Video</option>
+
+  <option value="UGC Video">UGC Video</option>
+
+  <option value="Event Videos">Event Videos</option>
+
+  <option value="Corporate Video">Corporate Video</option>
+
+  <option value="Talking Head Video">Talking Head Video</option>
+
+  <option value="Podcast Editing">Podcast Editing</option>
+
+  <option value="Documentary Video">Documentary Video</option>
+
+  <option value="Other / Custom Project">
+    Other / Custom Project
+  </option>
+</select>
 
               <textarea
                 name="projectDetails"
