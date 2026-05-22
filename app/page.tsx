@@ -184,31 +184,16 @@ export default function HomePage() {
               alignItems: "center",
             }}
           >
-         {/* Left Side */}
-<div style={{ textAlign: "center" }}>
-
- <h2
+        {/* Left Side */}
+<div
   style={{
-    color: "#111827",
-    marginBottom: "12px",
-    fontSize: "42px",
+    textAlign: "center",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
   }}
 >
-  Shahzaib Soomro
-</h2>
-
-<p
-  style={{
-    color: "#4b5563",
-    lineHeight: "1.8",
-    maxWidth: "620px",
-    margin: "0 auto 28px",
-  }}
->
-  Tell me about your project and let’s create something amazing.
-</p>
-
-<img
+  <img
     src="/Shahzaib Soomro.jpg"
     alt="Shahzaib Soomro"
     style={{
@@ -218,9 +203,32 @@ export default function HomePage() {
       border: "2px solid rgba(255, 214, 0, 0.35)",
       boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
       display: "block",
-      margin: "0 auto",
+      marginBottom: "24px",
     }}
   />
+
+  <h2
+    style={{
+      color: "#111827",
+      marginBottom: "12px",
+      fontSize: "42px",
+      fontWeight: "800",
+    }}
+  >
+    Shahzaib Soomro
+  </h2>
+
+  <p
+    style={{
+      color: "#4b5563",
+      lineHeight: "1.8",
+      maxWidth: "520px",
+      margin: "0 auto",
+      fontSize: "1.05rem",
+    }}
+  >
+    Tell me about your project and let’s create something amazing.
+  </p>
 </div>
             {/* Right Side Form */}
           <form
