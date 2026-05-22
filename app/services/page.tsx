@@ -14,15 +14,15 @@ export default function ServicesPage() {
       <main>
         <section className="hero fade-up">
           <div
-            style={{
-              maxWidth: "1150px",
-              margin: "0 auto",
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-              gap: "55px",
-              alignItems: "center",
-            }}
-          >
+  style={{
+    maxWidth: "1150px",
+    margin: "0 auto",
+    display: "grid",
+    gridTemplateColumns: "0.9fr 1.1fr",
+    gap: "80px",
+    alignItems: "center",
+  }}
+>
             <div>
               <span className="pill">Services</span>
 
@@ -47,7 +47,7 @@ export default function ServicesPage() {
                 alt="Shahzaib Soomro"
                 style={{
                   width: "100%",
-                  maxWidth: "430px",
+                  maxWidth: "360px",
                   borderRadius: "30px",
                   border: "2px solid rgba(255, 214, 0, 0.35)",
                   boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
@@ -110,7 +110,7 @@ export default function ServicesPage() {
               maxWidth: "1150px",
               margin: "0 auto",
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+              gridTemplateColumns: "0.9fr 1.1fr",
               gap: "50px",
               alignItems: "center",
             }}
