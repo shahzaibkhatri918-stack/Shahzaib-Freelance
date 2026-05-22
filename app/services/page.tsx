@@ -13,26 +13,56 @@ export default function ServicesPage() {
 
       <main>
         <section className="hero fade-up">
-          <div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-  }}
->
-  <img
-    src="/Shahzaib Soomro.jpg"
-    alt="Shahzaib Soomro"
+  <div
     style={{
-      width: "420px",
-      height: "420px",
-      objectFit: "cover",
-      borderRadius: "30px",
-      border: "2px solid rgba(255, 214, 0, 0.35)",
-      boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
+      maxWidth: "1150px",
+      margin: "0 auto",
+      display: "grid",
+      gridTemplateColumns: "1fr 0.9fr",
+      gap: "60px",
+      alignItems: "center",
     }}
-  />
-</div>
+  >
+    {/* Left Side Text */}
+    <div>
+      <span className="pill">Services</span>
+
+      <h1>
+        Professional <span className="yellow">Video Editing</span> Services
+      </h1>
+
+      <p className="heroText">
+        Editing services for creators, coaches, brands, podcasts,
+        businesses and social media teams.
+      </p>
+
+      <a href="#project-form" className="btn">
+        Start Your Project
+      </a>
+    </div>
+
+    {/* Right Side Image */}
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <img
+        src="/Shahzaib Soomro.jpg"
+        alt="Shahzaib Soomro"
+        style={{
+          width: "420px",
+          height: "420px",
+          objectFit: "cover",
+          borderRadius: "30px",
+          border: "2px solid rgba(255, 214, 0, 0.35)",
+          boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
+        }}
+      />
+    </div>
+  </div>
         </section>
 
         <section className="section fade-up">
