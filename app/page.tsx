@@ -94,13 +94,14 @@ export default function HomePage() {
 
       <h2
         style={{
-          fontSize: "clamp(42px, 5vw, 72px)",
-          lineHeight: "0.95",
-          margin: "22px 0",
-          color: "#111827",
-          fontFamily: "serif",
-          maxWidth: "700px",
-        }}
+  fontSize: "clamp(42px, 5vw, 72px)",
+  lineHeight: "0.95",
+  margin: "22px 0",
+  color: "#111827",
+  fontFamily: "serif",
+  maxWidth: "1000px",
+  whiteSpace: "nowrap",
+}}
       >
         Meet Shahzaib Soomro
       </h2>
