@@ -326,3 +326,14 @@ export default function HomePage() {
     </div>
   );
 }
+const inputStyle = {
+  width: "100%",
+  padding: "14px 16px",
+  marginBottom: "16px",
+  borderRadius: "12px",
+  border: "1px solid #d1d5db",
+  outline: "none",
+  fontSize: "15px",
+  color: "#111827",
+  background: "#f9fafb",
+};
