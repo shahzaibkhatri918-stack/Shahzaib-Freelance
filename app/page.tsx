@@ -7,10 +7,41 @@ import Testimonials from "../components/Testimonials";
 import { services } from "../data/site";
 
 export default function HomePage() {
+  const success =
+    typeof window !== "undefined" &&
+    window.location.search.includes("success=true");
+
   return (
     <div className="site">
       <Navbar />
       <main>
+        {success && (
+  <div
+    style={{
+      background: "#facc15",
+      color: "#000",
+      padding: "14px 22px",
+      borderRadius: "14px",
+      margin: "20px auto",
+      fontWeight: "700",
+      textAlign: "center",
+      maxWidth: "700px",
+    }}
+  >
+    Thanks! Your project inquiry was submitted successfully.
+    <br />
+    <a
+      href="/"
+      style={{
+        color: "#000",
+        textDecoration: "underline",
+        fontWeight: "800",
+      }}
+    >
+      More Explore
+    </a>
+  </div>
+)}
         <section className="hero fade-up">
           <div>
             <h1>Transforming <span className="yellow">Vision</span> Into Unforgettable <span className="pink">Video</span></h1>
