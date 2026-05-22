@@ -1835,3 +1835,6 @@ a {
     height: 360px !important;
   }
 }
+.menuClose span:nth-child(2) {
+  display: none !important;
+}
