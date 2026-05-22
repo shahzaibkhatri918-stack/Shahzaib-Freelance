@@ -43,7 +43,6 @@ export default function Navbar() {
       <div className={`mobileMenu ${open ? "show" : ""}`}>
         <button className="menuClose" onClick={() => setOpen(false)} aria-label="Close menu">
           <span></span>
-          <span></span>
         </button>
 
         <div className="mobileMenuLinks">
