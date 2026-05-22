@@ -68,6 +68,12 @@ export default function ContactPage() {
            <form
   action="https://formspree.io/f/xqejblwg"
   method="POST"
+  onSubmit={() => {
+    setTimeout(() => {
+      window.location.href =
+        "https://shahzaibsoomro.com/?success=true";
+    }, 1000);
+  }}
   style={{
     background: "#ffffff",
     padding: "34px",
@@ -76,12 +82,6 @@ export default function ContactPage() {
     boxShadow: "0 25px 70px rgba(0,0,0,0.10)",
   }}
 >
-  <input
-    type="hidden"
-    name="_next"
-    value="https://shahzaibsoomro.com/?success=true"
-  />
-
   <h2 style={{ color: "#111827", marginTop: 0 }}>
     Project Inquiry
   </h2>
