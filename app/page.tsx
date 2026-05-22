@@ -187,28 +187,28 @@ export default function HomePage() {
          {/* Left Side */}
 <div style={{ textAlign: "center" }}>
 
-  <h2
-    style={{
-      color: "#111827",
-      marginBottom: "12px",
-      fontSize: "42px",
-    }}
-  >
-    Shahzaib Soomro
-  </h2>
+ <h2
+  style={{
+    color: "#111827",
+    marginBottom: "12px",
+    fontSize: "42px",
+  }}
+>
+  Shahzaib Soomro
+</h2>
 
-  <p
-    style={{
-      color: "#4b5563",
-      lineHeight: "1.8",
-      maxWidth: "620px",
-      margin: "0 auto 28px",
-    }}
-  >
-    Tell me about your project and let’s create something amazing.
-  </p>
+<p
+  style={{
+    color: "#4b5563",
+    lineHeight: "1.8",
+    maxWidth: "620px",
+    margin: "0 auto 28px",
+  }}
+>
+  Tell me about your project and let’s create something amazing.
+</p>
 
-  <img
+<img
     src="/Shahzaib Soomro.jpg"
     alt="Shahzaib Soomro"
     style={{
