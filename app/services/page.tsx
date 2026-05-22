@@ -1,9 +1,11 @@
 "use client";
 
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import PageHero from "../../components/PageHero";
-import ServiceOrbit from "../../components/ServiceOrbit";
+import Link from "next/link";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import ServiceOrbit from "../components/ServiceOrbit";
+import PortfolioFilter from "../components/PortfolioFilter";
+import Testimonials from "../components/Testimonials";
 import { services, site } from "../data/site";
 
 export default function ServicesPage() {
