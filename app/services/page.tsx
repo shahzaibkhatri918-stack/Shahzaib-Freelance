@@ -13,7 +13,7 @@ export default function ServicesPage() {
       <Navbar />
 
       <main>
-        <section className="section fade-up" style={{ paddingTop: "70px", paddingBottom: "70px" }}>
+        <section className="hero fade-up">
   <div
     style={{
       maxWidth: "1150px",
@@ -48,12 +48,13 @@ export default function ServicesPage() {
           marginBottom: "26px",
         }}
       >
-        Editing services for creators, coaches, brands, podcasts, businesses and social media teams.
-      </p>
+      <p className="heroText">
+  Editing services for creators, coaches, brands, podcasts, businesses and social media teams.
+</p>
 
-      <a href="#project-form" className="serviceCtaBtn">
-        Start Your Project
-      </a>
+      <a href="#project-form" className="btn">
+  Start Your Project
+</a>
     </div>
 
     <div style={{ textAlign: "center" }}>
