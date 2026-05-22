@@ -186,6 +186,15 @@ export default function HomePage() {
           >
             {/* Left Side */}
             <div>
+              <h2 style={{ color: "#111827", marginBottom: "12px" }}>
+                Shahzaib Soomro
+              </h2>
+
+              <p style={{ color: "#4b5563", lineHeight: "1.7" }}>
+                Professional Video Editor specializing in Talking Head videos,
+                VSLs, Facebook Ads, Podcast edits, Reels and Corporate videos.
+              </p>
+            </div>
               <img
                 src="/Shahzaib Soomro.jpg"
                 alt="Shahzaib Soomro"
@@ -199,28 +208,6 @@ export default function HomePage() {
                   marginBottom: "28px",
                 }}
               />
-
-              <h2 style={{ color: "#111827", marginBottom: "12px" }}>
-                Shahzaib Soomro
-              </h2>
-
-              <p style={{ color: "#4b5563", lineHeight: "1.7" }}>
-                Professional Video Editor specializing in Talking Head videos,
-                VSLs, Facebook Ads, Podcast edits, Reels and Corporate videos.
-              </p>
-
-              <p>
-                <strong>Email:</strong>{" "}
-                <a href={`mailto:${site.email}`}>{site.email}</a>
-              </p>
-
-              <p>
-                <strong>WhatsApp:</strong>{" "}
-                <a href={site.whatsapp} target="_blank" rel="noreferrer">
-                  {site.phoneDisplay}
-                </a>
-              </p>
-            </div>
 
             {/* Right Side Form */}
           <form
