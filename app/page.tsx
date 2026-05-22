@@ -100,8 +100,7 @@ export default function HomePage() {
   color: "#111827",
   fontFamily: "serif",
   maxWidth: "1000px",
-  whiteSpace: "nowrap",
-}}
+        }}
       >
         Meet Shahzaib Soomro
       </h2>
