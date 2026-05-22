@@ -2,7 +2,6 @@
 
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import PageHero from "../../components/PageHero";
 import ServiceOrbit from "../../components/ServiceOrbit";
 import PortfolioFilter from "../../components/PortfolioFilter";
 import { services } from "../../data/site";
@@ -14,64 +13,49 @@ export default function ServicesPage() {
 
       <main>
         <section className="hero fade-up">
-  <div
-    style={{
-      maxWidth: "1150px",
-      margin: "0 auto",
-      display: "grid",
-      gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-      gap: "55px",
-      alignItems: "center",
-    }}
-  >
-    <div>
-      <span className="pill">Services</span>
+          <div
+            style={{
+              maxWidth: "1150px",
+              margin: "0 auto",
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+              gap: "55px",
+              alignItems: "center",
+            }}
+          >
+            <div>
+              <span className="pill">Services</span>
 
-      <h1
-        style={{
-          fontSize: "clamp(46px, 6vw, 84px)",
-          lineHeight: "0.95",
-          margin: "24px 0 20px",
-          color: "#111827",
-          fontFamily: "serif",
-        }}
-      >
-        Professional Video Editing Services
-      </h1>
+              <h1>
+                Professional <span className="yellow">Video Editing</span>{" "}
+                Services
+              </h1>
 
-      <p
-        style={{
-          color: "#4b5563",
-          fontSize: "1.1rem",
-          lineHeight: "1.8",
-          maxWidth: "620px",
-          marginBottom: "26px",
-        }}
-      >
-      <p className="heroText">
-  Editing services for creators, coaches, brands, podcasts, businesses and social media teams.
-</p>
+              <p className="heroText">
+                Editing services for creators, coaches, brands, podcasts,
+                businesses and social media teams.
+              </p>
 
-      <a href="#project-form" className="btn">
-  Start Your Project
-</a>
-    </div>
+              <a href="#project-form" className="btn">
+                Start Your Project
+              </a>
+            </div>
 
-    <div style={{ textAlign: "center" }}>
-      <img
-        src="/Shahzaib Soomro.jpg"
-        alt="Shahzaib Soomro"
-        style={{
-          width: "100%",
-          maxWidth: "430px",
-          borderRadius: "30px",
-          border: "2px solid rgba(255, 214, 0, 0.35)",
-          boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
-        }}
-      />
-    </div>
-  </div>
-</section>
+            <div style={{ textAlign: "center" }}>
+              <img
+                src="/Shahzaib Soomro.jpg"
+                alt="Shahzaib Soomro"
+                style={{
+                  width: "100%",
+                  maxWidth: "430px",
+                  borderRadius: "30px",
+                  border: "2px solid rgba(255, 214, 0, 0.35)",
+                  boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
+                }}
+              />
+            </div>
+          </div>
+        </section>
 
         <section className="section fade-up">
           <div className="sectionTitle">
@@ -94,7 +78,9 @@ export default function ServicesPage() {
             <h2>
               Choose Your <span className="yellow">Editing Service</span>
             </h2>
-            <p>Click any service badge to stay connected with the services page.</p>
+            <p>
+              Click any service badge to stay connected with the services page.
+            </p>
           </div>
 
           <ServiceOrbit />
