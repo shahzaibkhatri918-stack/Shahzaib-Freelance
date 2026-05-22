@@ -184,7 +184,7 @@ export default function HomePage() {
               alignItems: "center",
             }}
           >
-           {/* Left Side */}
+         {/* Left Side */}
 <div style={{ textAlign: "center" }}>
 
   <h2
@@ -222,6 +222,7 @@ export default function HomePage() {
       margin: "0 auto",
     }}
   />
+</div>
             {/* Right Side Form */}
           <form
   onSubmit={async (e) => {
