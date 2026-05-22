@@ -73,7 +73,6 @@ export default function ContactPage() {
   type="hidden"
   name="_next"
   value="https://shahzaibsoomro.com/?success=true"
-/>
               style={{
                 background: "#ffffff",
                 padding: "34px",
