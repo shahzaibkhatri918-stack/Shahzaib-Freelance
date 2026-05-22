@@ -1838,3 +1838,26 @@ a {
 .menuClose span:nth-child(2) {
   display: none !important;
 }
+.menuClose span {
+  display: none !important;
+}
+
+.menuClose::before,
+.menuClose::after {
+  content: "" !important;
+  position: absolute !important;
+  width: 22px !important;
+  height: 3px !important;
+  background: #ffd600 !important;
+  border-radius: 999px !important;
+  top: 50% !important;
+  left: 50% !important;
+}
+
+.menuClose::before {
+  transform: translate(-50%, -50%) rotate(45deg) !important;
+}
+
+.menuClose::after {
+  transform: translate(-50%, -50%) rotate(-45deg) !important;
+}
