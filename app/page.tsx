@@ -80,8 +80,8 @@ export default function HomePage() {
         alt="Shahzaib Soomro"
         style={{
           width: "100%",
-          maxWidth: "520px",
-          borderRadius: "36px",
+          maxWidth: "540px",
+          borderRadius: "30px",
           border: "2px solid rgba(255, 214, 0, 0.35)",
           boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
         }}
