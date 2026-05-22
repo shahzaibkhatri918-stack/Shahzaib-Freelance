@@ -33,7 +33,6 @@ export default function ServicesPage() {
     }}
   />
 </div>
-        </div>
         </section>
 
         <section className="section fade-up">
