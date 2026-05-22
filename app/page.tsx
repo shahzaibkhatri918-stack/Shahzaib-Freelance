@@ -184,31 +184,44 @@ export default function HomePage() {
               alignItems: "center",
             }}
           >
-            {/* Left Side */}
-            <div>
-              <h2 style={{ color: "#111827", marginBottom: "12px" }}>
-                Shahzaib Soomro
-              </h2>
+           {/* Left Side */}
+<div style={{ textAlign: "center" }}>
 
-              <p style={{ color: "#4b5563", lineHeight: "1.7" }}>
-                Professional Video Editor specializing in Talking Head videos,
-                VSLs, Facebook Ads, Podcast edits, Reels and Corporate videos.
-              </p>
-            </div>
-              <img
-                src="/Shahzaib Soomro.jpg"
-                alt="Shahzaib Soomro"
-                style={{
-                  width: "100%",
-                  maxWidth: "420px",
-                  borderRadius: "28px",
-                  border: "2px solid rgba(255, 214, 0, 0.35)",
-                  boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
-                  display: "block",
-                  marginBottom: "28px",
-                }}
-              />
+  <h2
+    style={{
+      color: "#111827",
+      marginBottom: "12px",
+      fontSize: "42px",
+    }}
+  >
+    Shahzaib Soomro
+  </h2>
 
+  <p
+    style={{
+      color: "#4b5563",
+      lineHeight: "1.8",
+      maxWidth: "620px",
+      margin: "0 auto 28px",
+    }}
+  >
+    Professional Video Editor specializing in Talking Head videos,
+    VSLs, Facebook Ads, Podcast edits, Reels and Corporate videos.
+  </p>
+
+  <img
+    src="/Shahzaib Soomro.jpg"
+    alt="Shahzaib Soomro"
+    style={{
+      width: "100%",
+      maxWidth: "420px",
+      borderRadius: "28px",
+      border: "2px solid rgba(255, 214, 0, 0.35)",
+      boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
+      display: "block",
+      margin: "0 auto",
+    }}
+  />
             {/* Right Side Form */}
           <form
   onSubmit={async (e) => {
