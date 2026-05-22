@@ -65,9 +65,15 @@ export default function ContactPage() {
             </div>
 
             {/* Right Side Form */}
-            <form
-              action="https://formspree.io/f/xqejblwg"
-              method="POST"
+           <form
+  action="https://formspree.io/f/xqejblwg"
+  method="POST"
+>
+<input
+  type="hidden"
+  name="_next"
+  value="https://shahzaibsoomro.com/?success=true"
+/>
               style={{
                 background: "#ffffff",
                 padding: "34px",
