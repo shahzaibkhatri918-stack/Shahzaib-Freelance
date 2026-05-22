@@ -68,13 +68,21 @@ export default function ContactPage() {
 
             {/* Right Side Form */}
            <form
-  action="https://formspree.io/f/xqejblwg"
-  method="POST"
-  onSubmit={() => {
-    setTimeout(() => {
-      window.location.href =
-        "https://shahzaibsoomro.com/?success=true";
-    }, 1000);
+  onSubmit={async (e) => {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    await fetch("https://formspree.io/f/xqejblwg", {
+      method: "POST",
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    window.location.href = "https://shahzaibsoomro.com/?success=true";
   }}
   style={{
     background: "#ffffff",
@@ -83,8 +91,7 @@ export default function ContactPage() {
     border: "1px solid rgba(0,0,0,0.08)",
     boxShadow: "0 25px 70px rgba(0,0,0,0.10)",
   }}
->
-  <h2 style={{ color: "#111827", marginTop: 0 }}>
+>  <h2 style={{ color: "#111827", marginTop: 0 }}>
     Project Inquiry
   </h2>
 
