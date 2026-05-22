@@ -1861,3 +1861,25 @@ a {
 .menuClose::after {
   transform: translate(-50%, -50%) rotate(-45deg) !important;
 }
+.serviceCtaBtn {
+  display: inline-block;
+  background: #facc15;
+  color: #000;
+  padding: 14px 32px;
+  border-radius: 12px;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 12px 35px rgba(250, 204, 21, 0.35);
+  transition: all 0.3s ease;
+}
+
+.serviceCtaBtn:hover {
+  background: linear-gradient(90deg, #facc15, #ec4899);
+  color: #000;
+  transform: translateY(-3px);
+  box-shadow: 0 18px 45px rgba(236, 72, 153, 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+}
