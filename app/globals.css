@@ -1916,3 +1916,13 @@ html {
     padding-right: 18px !important;
   }
 }
+@media (max-width: 768px) {
+  #project-form {
+    padding: 0 16px !important;
+  }
+
+  #project-form form {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
