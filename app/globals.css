@@ -1892,3 +1892,8 @@ html {
     display: none !important;
   }
 }
+@media (max-width: 768px) {
+  .contactLeft {
+    display: none !important;
+  }
+}
