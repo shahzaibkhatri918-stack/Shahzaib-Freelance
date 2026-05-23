@@ -18,8 +18,8 @@ export default function ServicesPage() {
       maxWidth: "1150px",
       margin: "0 auto",
       display: "grid",
-      gridTemplateColumns: "1fr 0.9fr",
-      gap: "100px",
+      gridTemplateColumns: "1fr 1fr",
+      gap: "80px",
       alignItems: "center",
     }}
   >
@@ -51,9 +51,19 @@ export default function ServicesPage() {
   }}
 >
   <img
-    src="/Shahzaib Soomro.jpg"
-    alt="Shahzaib Soomro"
-  />
+  src="/Shahzaib Soomro.jpg"
+  alt="Shahzaib Soomro"
+  style={{
+    width: "100%",
+    maxWidth: "430px",
+    aspectRatio: "1 / 1",
+    objectFit: "cover",
+    objectPosition: "center top",
+    borderRadius: "30px",
+    border: "2px solid rgba(255, 214, 0, 0.35)",
+    boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
+  }}
+/>
 </div>
   </div>
         </section>
