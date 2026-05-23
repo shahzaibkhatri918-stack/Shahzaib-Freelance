@@ -123,8 +123,8 @@ export default function ServicesPage() {
             }}
           >
             <div
+              className="contactLeft"
               style={{
-                className="contactLeft"
                 textAlign: "center",
                 display: "flex",
                 flexDirection: "column",
