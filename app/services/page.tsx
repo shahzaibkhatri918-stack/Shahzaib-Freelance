@@ -19,7 +19,7 @@ export default function ServicesPage() {
       margin: "0 auto",
       display: "grid",
       gridTemplateColumns: "1fr 0.9fr",
-      gap: "60px",
+      gap: "130px",
       alignItems: "center",
     }}
   >
