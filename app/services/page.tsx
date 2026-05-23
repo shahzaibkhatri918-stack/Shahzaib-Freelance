@@ -42,26 +42,19 @@ export default function ServicesPage() {
     </div>
 
     {/* Right Side Image */}
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <img
-        src="/Shahzaib Soomro.jpg"
-        alt="Shahzaib Soomro"
-        style={{
-          width: "420px",
-          height: "420px",
-          objectFit: "cover",
-          borderRadius: "30px",
-          border: "2px solid rgba(255, 214, 0, 0.35)",
-          boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
-        }}
-      />
-    </div>
+   <div
+  className="heroImage"
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  }}
+>
+  <img
+    src="/Shahzaib Soomro.jpg"
+    alt="Shahzaib Soomro"
+  />
+</div>
   </div>
         </section>
 
