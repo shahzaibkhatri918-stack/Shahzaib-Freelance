@@ -191,6 +191,9 @@ export default function ServicesPage() {
                 background: "#ffffff",
                 padding: "34px",
                 borderRadius: "24px",
+                width: "100%",
+                maxWidth: "560px",
+                margin: "0 auto",
                 border: "1px solid rgba(0,0,0,0.08)",
                 boxShadow: "0 25px 70px rgba(0,0,0,0.10)",
               }}
