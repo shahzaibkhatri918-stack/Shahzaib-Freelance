@@ -2000,3 +2000,7 @@ html {
     box-sizing: border-box !important;
   }
 }
+.heroImage img {
+  width: 430px !important;
+  height: 430px !important;
+}
