@@ -13,57 +13,44 @@ export default function ServicesPage() {
 
       <main>
         <section className="hero fade-up">
-  <div
-    style={{
-      maxWidth: "1150px",
-      margin: "0 auto",
-      display: "grid",
-      gridTemplateColumns: "1fr 0.9fr",
-      gap: "130px",
-      alignItems: "center",
-    }}
-  >
-    {/* Left Side Text */}
-    <div>
-      <span className="pill">Services</span>
+          <div className="servicesHeroGrid">
+            <div>
+              <span className="pill">Services</span>
 
-      <h1>
-        Professional <span className="yellow">Video Editing</span> Services
-      </h1>
+              <h1>
+                Professional <span className="yellow">Video Editing</span>{" "}
+                Services
+              </h1>
 
-      <p className="heroText">
-        Editing services for creators, coaches, brands, podcasts,
-        businesses and social media teams.
-      </p>
+              <p className="heroText">
+                Editing services for creators, coaches, brands, podcasts,
+                businesses and social media teams.
+              </p>
 
-      <a href="#project-form" className="btn">
-        Start Your Project
-      </a>
-    </div>
+              <a href="#project-form" className="btn">
+                Start Your Project
+              </a>
+            </div>
 
-    {/* Right Side Image */}
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <img
-        src="/Shahzaib Soomro.jpg"
-        alt="Shahzaib Soomro"
-        style={{
-          width: "420px",
-          height: "420px",
-          objectFit: "cover",
-          borderRadius: "30px",
-          border: "2px solid rgba(255, 214, 0, 0.35)",
-          boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
-        }}
-      />
-    </div>
-  </div>
-</section>
+            <div className="heroImage">
+              <img
+                src="/Shahzaib Soomro.jpg"
+                alt="Shahzaib Soomro"
+                style={{
+                  width: "100%",
+                  maxWidth: "430px",
+                  aspectRatio: "1 / 1",
+                  objectFit: "cover",
+                  objectPosition: "center top",
+                  borderRadius: "30px",
+                  border: "2px solid rgba(255, 214, 0, 0.35)",
+                  boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
+                }}
+              />
+            </div>
+          </div>
+        </section>
+
         <section className="section fade-up">
           <div className="sectionTitle">
             <span className="pill">Featured Portfolio</span>
@@ -112,25 +99,8 @@ export default function ServicesPage() {
         </section>
 
         <section id="project-form" className="section fade-up">
-          <div
-            style={{
-              maxWidth: "1150px",
-              margin: "0 auto",
-              display: "grid",
-              gridTemplateColumns: "0.9fr 1.1fr",
-              gap: "50px",
-              alignItems: "center",
-            }}
-          >
-            <div
-              className="contactLeft"
-              style={{
-                textAlign: "center",
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-              }}
-            >
+          <div className="projectFormGrid">
+            <div className="contactLeft">
               <img
                 src="/Shahzaib Soomro.jpg"
                 alt="Shahzaib Soomro"
@@ -187,16 +157,7 @@ export default function ServicesPage() {
                 window.location.href =
                   "https://shahzaibsoomro.com/?success=true";
               }}
-              style={{
-                background: "#ffffff",
-                padding: "34px",
-                borderRadius: "24px",
-                width: "100%",
-                maxWidth: "560px",
-                margin: "0 auto",
-                border: "1px solid rgba(0,0,0,0.08)",
-                boxShadow: "0 25px 70px rgba(0,0,0,0.10)",
-              }}
+              className="projectInquiryForm"
             >
               <h2 style={{ color: "#111827", marginTop: 0 }}>
                 Project Inquiry
