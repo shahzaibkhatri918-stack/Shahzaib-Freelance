@@ -1987,6 +1987,8 @@ html {
   }
 
   #project-form {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
     padding-left: 16px !important;
     padding-right: 16px !important;
   }
