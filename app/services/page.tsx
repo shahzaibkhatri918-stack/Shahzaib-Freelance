@@ -102,18 +102,20 @@ export default function ServicesPage() {
           <div className="projectFormGrid">
             <div className="contactLeft">
               <img
-                src="/Shahzaib Soomro.jpg"
-                alt="Shahzaib Soomro"
-                style={{
-                  width: "100%",
-                  maxWidth: "420px",
-                  borderRadius: "28px",
-                  border: "2px solid rgba(255, 214, 0, 0.35)",
-                  boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
-                  display: "block",
-                  marginBottom: "24px",
-                }}
-              />
+  src="/Shahzaib Soomro.jpg"
+  alt="Shahzaib Soomro"
+  style={{
+    width: "100%",
+    maxWidth: "430px",
+    minWidth: "430px",
+    height: "430px",
+    objectFit: "cover",
+    objectPosition: "center top",
+    borderRadius: "30px",
+    border: "2px solid rgba(255, 214, 0, 0.35)",
+    boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
+  }}
+/>
 
               <h2
                 style={{
