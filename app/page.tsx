@@ -134,7 +134,7 @@ export default function HomePage() {
       </p>
 
       <a
-        href="/contact"
+        href="#project-form"
         className="btn"
         style={{
           marginTop: "18px",
