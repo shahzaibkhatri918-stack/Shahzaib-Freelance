@@ -1808,14 +1808,14 @@ a {
 /* Tablet */
 @media (max-width: 1024px) {
   .projectThumb {
-    height: 470px !important;
+    height: 350px !important;
   }
 }
 
 /* Mobile */
 @media (max-width: 768px) {
   .projectThumb {
-    height: 420px !important;
+    height: 300px !important;
     border-radius: 12px 12px 0 0 !important;
   }
 
@@ -1830,7 +1830,7 @@ a {
 }
 
 /* Small Mobile */
-@media (max-width: 480px) {
+@media (max-width: 460px) {
   .projectThumb {
     height: 360px !important;
   }
@@ -1865,9 +1865,9 @@ a {
   display: inline-block;
   background: #facc15;
   color: #000;
-  padding: 14px 32px;
+  padding: 10px 15px;
   border-radius: 12px;
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: none;
   box-shadow: 0 12px 35px rgba(250, 204, 21, 0.35);
   transition: all 0.3s ease;
@@ -2002,7 +2002,7 @@ html {
 }
 .heroImage img {
   width: 430px !important;
-  height: 430px !important;
+  height: 350px !important;
 }
 .ctaBanner {
   padding: 80px 24px;
@@ -2065,7 +2065,7 @@ html {
   }
 
   .ctaText h2 {
-    font-size: 52px;
+    font-size: 40px;
   }
 
   .ctaBigBtn {
@@ -2074,10 +2074,10 @@ html {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .ctaText h2 {
-    font-size: 42px;
-    line-height: 1.05;
+    font-size: 40px;
+    line-height: 1;
   }
 
   .ctaText p {
