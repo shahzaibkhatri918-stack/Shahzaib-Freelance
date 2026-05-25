@@ -163,9 +163,9 @@ export default function HomePage() {
       </p>
     </div>
 
-    <a href="/project-form" className="ctaBigBtn">
-      Start Your Project
-    </a>
+    <a href="#project-form" className="ctaBigBtn">
+  Start Your Project
+</a>
 
   </div>
 </section>
@@ -196,7 +196,7 @@ export default function HomePage() {
   <ServiceOrbit />
 </section>
         <section className="section dark fade-up"><div className="sectionTitle"><span className="pill">Creative Services</span><h2>World-Class <span className="yellow">Video Editing</span></h2><p>Professional editing services designed for attention, retention and conversion.</p></div><div className="serviceGrid">{services.map((service)=><article className="serviceCard" key={service.title}><div className="serviceIcon">{service.icon}</div><span className="serviceLabel">{service.tag}</span><h3>{service.title}</h3><p>{service.text}</p><ul>{service.points.map((p)=><li key={p}>{p}</li>)}</ul></article>)}</div></section>
-         <section id="#project-form" className="section fade-up">
+         <section id="project-form" className="section fade-up">
           <div
             style={{
               maxWidth: "1150px",
