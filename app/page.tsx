@@ -146,6 +146,29 @@ export default function HomePage() {
     </div>
   </div>
 </section>
+        <section className="ctaBanner fade-up">
+  <div className="ctaBannerContent">
+    
+    <div className="ctaText">
+      <span className="pill">Let’s Work Together</span>
+
+      <h2>
+        Ready To Turn Your Ideas Into
+        <span className="yellow"> High-Converting Videos?</span>
+      </h2>
+
+      <p>
+        Premium video editing designed to increase engagement,
+        boost retention and make your brand stand out.
+      </p>
+    </div>
+
+    <a href="/contact" className="ctaBigBtn">
+      Start Your Project
+    </a>
+
+  </div>
+</section>
         
       <section className="section fade-up">
   <div className="sectionTitle">
