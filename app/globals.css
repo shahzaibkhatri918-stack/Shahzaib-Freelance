@@ -2004,3 +2004,88 @@ html {
   width: 430px !important;
   height: 430px !important;
 }
+.ctaBanner {
+  padding: 80px 24px;
+}
+
+.ctaBannerContent {
+  max-width: 1250px;
+  margin: 0 auto;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 214, 0, 0.08),
+    rgba(255, 47, 163, 0.08)
+  );
+  border: 1px solid rgba(255, 214, 0, 0.18);
+  border-radius: 34px;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.ctaText h2 {
+  font-size: clamp(42px, 5vw, 78px);
+  line-height: 0.95;
+  margin: 18px 0;
+  max-width: 820px;
+}
+
+.ctaText p {
+  font-size: 1.1rem;
+  color: #9ca3af;
+  max-width: 650px;
+  line-height: 1.8;
+}
+
+.ctaBigBtn {
+  background: linear-gradient(90deg, #ffd600, #ff2fa3);
+  color: #000;
+  text-decoration: none;
+  padding: 22px 48px;
+  border-radius: 20px;
+  font-size: 1.15rem;
+  font-weight: 900;
+  white-space: nowrap;
+  box-shadow: 0 18px 50px rgba(255, 214, 0, 0.28);
+  transition: all 0.3s ease;
+}
+
+.ctaBigBtn:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 25px 60px rgba(255, 47, 163, 0.35);
+}
+
+@media (max-width: 900px) {
+  .ctaBannerContent {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 38px 28px;
+  }
+
+  .ctaText h2 {
+    font-size: 52px;
+  }
+
+  .ctaBigBtn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .ctaText h2 {
+    font-size: 42px;
+    line-height: 1.05;
+  }
+
+  .ctaText p {
+    font-size: 1rem;
+  }
+
+  .ctaBigBtn {
+    padding: 18px 26px;
+    font-size: 1rem;
+  }
+}
