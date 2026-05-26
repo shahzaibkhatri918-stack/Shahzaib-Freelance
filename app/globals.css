@@ -2044,13 +2044,25 @@ html {
 
 @media (max-width: 900px) {
   .ctaBanner {
-    padding: 34px 24px;
-  }
+  padding: 42px 50px;
+  border-radius: 34px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 214, 0, 0.06),
+    rgba(255, 0, 128, 0.06)
+  );
+  border: 1px solid rgba(255, 214, 0, 0.15);
+  max-width: 1450px;
+  margin: 0 auto;
+}
 
-  .ctaBannerContent {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+.ctaBannerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
 
   .ctaText h2 {
     font-size: 42px;
