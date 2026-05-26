@@ -50,6 +50,25 @@ export default function ServicesPage() {
             </div>
           </div>
         </section>
+{/* CTA SECTION */}
+<section className="ctaBanner fade-up">
+  <div className="ctaBannerContent">
+
+    <div className="ctaText">
+      <span className="pill">Let’s Work Together</span>
+
+      <h2>
+        Ready To Turn Your Ideas Into{" "}
+        <span className="yellow">High-Converting Videos?</span>
+      </h2>
+    </div>
+
+    <a href="#project-form" className="ctaBigBtn">
+      Start Your Project
+    </a>
+
+  </div>
+</section>
 
         <section className="section fade-up">
           <div className="sectionTitle">
@@ -65,6 +84,25 @@ export default function ServicesPage() {
 
           <PortfolioFilter />
         </section>
+{/* CTA SECTION */}
+<section className="ctaBanner fade-up">
+  <div className="ctaBannerContent">
+
+    <div className="ctaText">
+      <span className="pill">Let’s Work Together</span>
+
+      <h2>
+        Ready To Turn Your Ideas Into{" "}
+        <span className="yellow">High-Converting Videos?</span>
+      </h2>
+    </div>
+
+    <a href="#project-form" className="ctaBigBtn">
+      Start Your Project
+    </a>
+
+  </div>
+</section>
 
         <section className="orbitSection">
           <div className="orbitTitle">
@@ -79,6 +117,25 @@ export default function ServicesPage() {
 
           <ServiceOrbit />
         </section>
+{/* CTA SECTION */}
+<section className="ctaBanner fade-up">
+  <div className="ctaBannerContent">
+
+    <div className="ctaText">
+      <span className="pill">Let’s Work Together</span>
+
+      <h2>
+        Ready To Turn Your Ideas Into{" "}
+        <span className="yellow">High-Converting Videos?</span>
+      </h2>
+    </div>
+
+    <a href="#project-form" className="ctaBigBtn">
+      Start Your Project
+    </a>
+
+  </div>
+</section>
 
         <section className="section dark fade-up">
           <div className="serviceGrid">
@@ -97,6 +154,25 @@ export default function ServicesPage() {
             ))}
           </div>
         </section>
+{/* CTA SECTION */}
+<section className="ctaBanner fade-up">
+  <div className="ctaBannerContent">
+
+    <div className="ctaText">
+      <span className="pill">Let’s Work Together</span>
+
+      <h2>
+        Ready To Turn Your Ideas Into{" "}
+        <span className="yellow">High-Converting Videos?</span>
+      </h2>
+    </div>
+
+    <a href="#project-form" className="ctaBigBtn">
+      Start Your Project
+    </a>
+
+  </div>
+</section>
 
         <section id="project-form" className="section fade-up">
           <div className="projectFormGrid">
