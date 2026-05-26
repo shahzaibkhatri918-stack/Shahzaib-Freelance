@@ -146,7 +146,8 @@ export default function HomePage() {
     </div>
   </div>
 </section>
-        <section className="ctaBanner fade-up">
+       {/* FIRST CTA */}
+<section className="ctaBanner fade-up">
   <div className="ctaBannerContent">
 
     <div className="ctaText">
@@ -165,6 +166,7 @@ export default function HomePage() {
   <PortfolioFilter />
 </section>
 
+{/* SECOND CTA */}
 <section className="ctaBanner fade-up">
   <div className="ctaBannerContent">
     <div className="ctaText">
