@@ -235,6 +235,8 @@ export default function HomePage() {
 
   </div>
 </section>
+  </section>
+
          <section id="project-form" className="section fade-up">
           <div
             style={{
