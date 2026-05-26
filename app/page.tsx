@@ -166,7 +166,21 @@ export default function HomePage() {
   </div>
 </section>
         
-<PortfolioFilter />
+<section className="section fade-up portfolioLight">
+  <div className="sectionTitle">
+    <span className="pill">Featured Portfolio</span>
+    <h2>
+      Discover <span className="yellow">Editing Work</span>
+    </h2>
+    <p>
+      A curated showcase of premium video edits designed for creators, brands and businesses worldwide.
+    </p>
+  </div>
+
+  <PortfolioFilter />
+</section>
+
+<CtaSection />
         {/* CTA SECTION */}
 <section className="ctaBanner fade-up">
   <div className="ctaBannerContent">
