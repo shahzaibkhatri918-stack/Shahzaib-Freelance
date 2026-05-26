@@ -2005,25 +2005,27 @@ html {
   height: 350px !important;
 }
 .ctaBanner {
-  padding: 50px 60px;
+  padding: 42px 50px;
   border-radius: 34px;
   background: linear-gradient(
     135deg,
-    rgba(255, 214, 0, 0.08),
-    rgba(255, 0, 128, 0.08)
+    rgba(255, 214, 0, 0.06),
+    rgba(255, 0, 128, 0.06)
   );
-  border: 1px solid rgba(255, 214, 0, 0.18);
+  border: 1px solid rgba(255, 214, 0, 0.15);
+  max-width: 1450px;
+  margin: 0 auto;
 }
 
 .ctaBannerContent {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 60px;
+  gap: 40px;
 }
 
 .ctaText h2 {
-  font-size: clamp(42px, 4vw, 68px);
+  font-size: clamp(34px, 3.5vw, 56px);
   line-height: 1.02;
   margin: 18px 0 0;
   max-width: 760px;
@@ -2033,16 +2035,17 @@ html {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 22px 46px;
+  padding: 20px 42px;
   border-radius: 18px;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 800;
   text-decoration: none;
   color: #000;
   background: linear-gradient(135deg, #facc15, #ff3ea5);
-  box-shadow: 0 18px 40px rgba(250, 204, 21, 0.25);
+  box-shadow: 0 14px 34px rgba(250, 204, 21, 0.22);
   transition: 0.3s ease;
   white-space: nowrap;
+  margin-right: 60px;
 }
 
 .ctaBigBtn:hover {
@@ -2050,18 +2053,23 @@ html {
 }
 
 @media (max-width: 900px) {
+  .ctaBanner {
+    padding: 34px 24px;
+  }
+
   .ctaBannerContent {
     flex-direction: column;
     align-items: flex-start;
   }
 
   .ctaText h2 {
-    font-size: 52px;
+    font-size: 42px;
   }
 
   .ctaBigBtn {
     width: 100%;
     max-width: 320px;
     justify-content: center;
+    margin-right: 0;
   }
 }
