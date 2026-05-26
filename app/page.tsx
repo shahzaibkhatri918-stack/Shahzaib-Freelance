@@ -174,6 +174,24 @@ export default function HomePage() {
       A curated showcase of premium video edits designed for creators, brands and businesses worldwide.
     </p>
   </div>
+</section>
+        <section className="ctaBanner fade-up">
+  <div className="ctaBannerContent">
+
+    <div className="ctaText">
+      <span className="pill">Let’s Work Together</span>
+       <h2>
+        Ready To Turn Your Ideas Into
+        <span className="yellow"> High-Converting Videos?</span>
+      </h2>
+    </div>
+
+    <a href="#project-form" className="ctaBigBtn">
+      Start Your Project
+    </a>
+
+  </div>
+</section>
 
   <PortfolioFilter />
 </section>
