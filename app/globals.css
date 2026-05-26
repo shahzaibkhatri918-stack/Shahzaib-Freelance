@@ -2005,15 +2005,24 @@ html {
   height: 350px !important;
 }
 .ctaBanner {
-  padding: 70px 24px !important;
-  background: #050505 !important;
+  padding: 42px 50px;
+  border-radius: 34px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 214, 0, 0.06),
+    rgba(255, 0, 128, 0.06)
+  );
+  border: 1px solid rgba(255, 214, 0, 0.15);
+  max-width: 1450px;
+  margin: 0 auto;
 }
 
 .ctaBannerContent {
-  max-width: 1250px !important;
-  margin: 0 auto !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
 }
-
 .ctaText h2 {
   font-size: clamp(34px, 3.5vw, 56px);
   line-height: 1.02;
