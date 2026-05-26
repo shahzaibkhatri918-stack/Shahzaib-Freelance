@@ -2102,3 +2102,16 @@ html {
     justify-content: center;
   }
 }
+@media (max-width: 768px) {
+  .menuBtn.active {
+    display: none !important;
+  }
+
+  .mobileMenu {
+    z-index: 9999 !important;
+  }
+
+  .menuClose {
+    z-index: 10000 !important;
+  }
+}
