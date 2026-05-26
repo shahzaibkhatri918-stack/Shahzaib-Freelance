@@ -164,22 +164,21 @@ export default function HomePage() {
   </div>
   <PortfolioFilter />
 </section>
-        </section>
-        <section className="ctaBanner fade-up">
-  <div className="ctaBannerContent">
 
+<section className="ctaBanner fade-up">
+  <div className="ctaBannerContent">
     <div className="ctaText">
       <span className="pill">Let’s Work Together</span>
-       <h2>
-        Ready To Turn Your Ideas Into
-        <span className="yellow"> High-Converting Videos?</span>
+
+      <h2>
+        Ready To Turn Your Ideas Into{" "}
+        <span className="yellow">High-Converting Videos?</span>
       </h2>
     </div>
 
     <a href="#project-form" className="ctaBigBtn">
       Start Your Project
     </a>
-
   </div>
 </section>
 
