@@ -2040,7 +2040,7 @@ html {
 }
 
 .ctaText h2 {
-  font-size: clamp(28px, 3vw, 52px);
+  font-size: clamp(24px, 2.5vw, 42px);
 
   line-height: 1;
 
