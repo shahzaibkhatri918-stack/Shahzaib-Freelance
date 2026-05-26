@@ -1,11 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import PageHero from "../../components/PageHero";
 import Testimonials from "../../components/Testimonials";
-import { services, site } from "../data/site";
 
 export default function ExperiencePage() {
   return <div className="site"><Navbar /><main><PageHero label="Experience" title="Professional Journey" text="Building editing experience through freelance work, local clients, international clients and content-focused projects." />
