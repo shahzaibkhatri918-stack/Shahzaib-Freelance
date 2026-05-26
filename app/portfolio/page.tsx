@@ -17,7 +17,88 @@ export default function PortfolioPage() {
           title="Selected Video Editing Projects"
           text="Explore cinematic video editing projects crafted for brands, creators and businesses worldwide."
         />
+<section className="section fade-up">
+  <div
+    style={{
+      maxWidth: "1100px",
+      margin: "0 auto",
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+      gap: "60px",
+      alignItems: "center",
+    }}
+  >
+    {/* Left Image */}
+    <div style={{ textAlign: "center" }}>
+      <img
+        src="/Shahzaib Soomro.jpg"
+        alt="Shahzaib Soomro"
+        style={{
+          width: "100%",
+          maxWidth: "540px",
+          borderRadius: "30px",
+          border: "2px solid rgba(255, 214, 0, 0.35)",
+          boxShadow: "0 30px 80px rgba(255, 214, 0, 0.15)",
+        }}
+      />
+    </div>
 
+    {/* Right Text */}
+    <div>
+      <span className="pill">About Us</span>
+
+      <h2
+        style={{
+  fontSize: "clamp(35px, 5vw, 60px)",
+  lineHeight: "0.95",
+  margin: "22px 0",
+  color: "#111827",
+  fontFamily: "serif",
+  maxWidth: "1000px",
+        }}
+      >
+        Shahzaib Soomro
+      </h2>
+
+      <p
+        style={{
+          fontSize: "1.12rem",
+          lineHeight: "1.8",
+          color: "#374151",
+          maxWidth: "620px",
+        }}
+      >
+        I’m a professional video editor helping creators, brands and businesses
+        turn raw footage into cinematic, high-retention videos that capture
+        attention and drive real results.
+      </p>
+
+      <p
+        style={{
+          fontSize: "1.05rem",
+          lineHeight: "1.8",
+          color: "#4b5563",
+          maxWidth: "620px",
+        }}
+      >
+        From Talking Head edits and VSLs to ads, podcasts, reels and corporate
+        videos, I focus on clean pacing, strong storytelling and premium visual
+        quality.
+      </p>
+
+      <a
+        href="#project-form"
+        className="btn"
+        style={{
+          marginTop: "18px",
+          display: "inline-block",
+        }}
+      >
+        Book Project
+      </a>
+    </div>
+  </div>
+</section>
         <section className="section fade-up">
           <PortfolioFilter />
         </section>
