@@ -162,8 +162,9 @@ export default function HomePage() {
     </a>
 
   </div>
+  </section>
+  </section>
   <PortfolioFilter />
-</section>
 
 <section className="orbitSection">
   <div className="orbitTitle fade-up">
